@@ -1,0 +1,436 @@
+* {
+  user-select: none;
+}
+
+.design-page {
+  position: relative;
+  width: 100%;
+  height: 4400px;
+  overflow: hidden;
+  font-size: var(--font-size-base);
+  color: var(--white);
+  font-family: var(--font-montserrat);
+}
+
+/* ---------------------------------------------------------- */
+/* ------------------------- HEADER ------------------------- */
+
+.content {
+  max-width: 1000px;
+  height: 100%;
+  padding-top: 40px;
+  margin: 0 auto;
+}
+
+.box-head {
+  position: absolute;
+  top: 175px;
+  width: 1000px;
+  height: 80px;
+  color: var(--m3-black);
+  background-color: var(--white);
+  text-align: left;
+  font-size: var(--font-size-43xl);
+  font-family: var(--font-montserrat);
+}
+
+.box-head-txt {
+  position: absolute;
+  top: 2px;
+  left: 10px;
+  font-weight: 800;
+}
+
+
+/* ---------------------------------------------------------- */
+/* ------------------------- HEADER ------------------------- */
+
+.tab-container {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  padding: 15px 25px;
+  position: absolute;
+  top: 300px;
+}
+
+.tab {
+  padding: 15px 20px;
+  font-size: 16px;
+  color: grey;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.tab.active {
+  background-color: black;
+  color: white;
+}
+
+.tab:hover {
+  background-color: black;
+  color: white;
+}
+
+
+/* ---------------------------------------------------------- */
+/* -------------------- DESIGN CONTENT ---------------------- */
+
+
+.design-content-box1,
+.design-content-box2,
+.design-content-box3,
+.design-content-box4 {
+  position: absolute;
+  top: 450px;
+  font-size: var(--font-size-5xl);
+}
+
+.design-content-box2 {
+  top: 1330px;
+}
+
+.design-content-box3 {
+  top: 2210px;
+}
+
+.design-content-box4 {
+  top: 3090px;
+}
+
+/* ----------------------------- */
+
+.design-card1,
+.design-card2 {
+  position: absolute;
+  height: 400px;
+  width: 1000px;
+  font-size: var(--font-size-7xl);
+}
+
+.design-card2 {
+  top: 440px;
+}
+
+/* ---------------------------------- */
+
+.design-card-txt1,
+.design-card-txt2 {
+  position: absolute;
+  width: 385px;
+  height: 365px;
+  border-bottom: 1px solid var(--white);
+  border-top: 3px solid var(--white);
+}
+
+.design-card-txt1 {
+  left: 615px;
+}
+
+/* ------------------------------------ */
+
+
+.design-card-img1,
+.design-card-img2 {
+  position: absolute;
+  width: 570px;
+  height: 370px;
+}
+
+.design-card-img2 {
+  left: 430px;
+}
+
+.design-card-img1:hover,
+.design-card-img2:hover {
+  transition: all 0.6s ease-in-out;
+}
+
+/* ---------------------------------- */
+.design-card-txt-h1 {
+  border-top: 1px solid;
+  padding: 10px 0;
+}
+
+.design-card-txt-p,
+.p-h {
+  font-size: 16px;
+  line-height: 19px;
+  text-align: justify;
+  padding: 10px 0;
+  border-top: 1px solid var(--white);
+}
+
+
+.p-h {
+  font-size: 11px;
+}
+
+/* ---------------------------- */
+
+
+.design-card-btn {
+  position: absolute;
+  top: 290px;
+}
+
+.design-card-btn a {
+  text-decoration: none;
+  color: var(--white);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 175px;
+  height: 25px;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid var(--white);
+}
+
+.design-card-btn a:hover {
+  background-color: var(--white);
+  color: var(--m3-black);
+}
+
+
+/* -------------------------------------------------------------- */
+/* ------------------------- CONNECTION ------------------------- */
+
+.connection-box {
+  position: relative;
+  top: 4020px;
+  left: 220px;
+  width: 514px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  font-size: 40px;
+}
+
+.connection-box-h1 {
+  font-weight: 600;
+}
+
+.connection-box-p {
+  font-size: var(--font-size-base);
+}
+
+.connection-box-email {
+  font-size: var(--font-size-5xl);
+}
+
+
+/* ==================================================== */
+
+@media only screen and (max-width:820px) {
+  /* For tablets: */
+
+  .design-page {
+    height: 3750px;
+  }
+
+  .content {
+    max-width: 700px;
+  }
+
+  .box-head {
+    top: 125px;
+    width: 700px;
+    height: 65px;
+    font-size: var(--font-size-29xl);
+  }
+
+
+  .tab-container {
+    top: 225px;
+  }
+
+  .design-content-box1 {
+    top: 325px;
+  }
+
+  .design-content-box2 {
+    top: 1105px;
+  }
+
+  .design-content-box3 {
+    top: 1890px;
+  }
+
+  .design-content-box4 {
+    top: 2675px;
+  }
+
+  .design-card-img1,
+  .design-card-img2 {
+    width: 375px;
+    height: 355px;
+  }
+
+  .design-card-txt1 {
+    left: 400px;
+  }
+
+
+  .design-card-img2 {
+    left: 325px;
+  }
+
+  .design-card-txt1,
+  .design-card-txt2 {
+    position: absolute;
+    width: 300px;
+    height: 350px;
+  }
+
+  .design-card-txt-h1 {
+    padding: 10px 0;
+  }
+
+  .design-card-btn {
+    top: 300px;
+    font-size: var(--font-size-lg);
+  }
+
+  .design-card-btn a {
+    height: 20px;
+
+  }
+
+  .design-card2 {
+    top: 390px;
+  }
+
+  .connection-box {
+    top: 3425px;
+    left: 100px;
+  }
+
+}
+
+
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+
+  .design-page {
+    height: 5555px;
+  }
+
+  .header {
+    display: none;
+  }
+
+  .content {
+    max-width: 320px;
+    padding-top: 25px;
+  }
+
+  .box-head {
+    top: 100px;
+    width: 320px;
+    height: 35px;
+    font-size: var(--font-size-5xl);
+  }
+
+  .tab-container {
+    padding: 5px;
+    top: 160px;
+  }
+
+  .tab {
+    padding: 5px 10px;
+    font-size: 10.7px;
+  }
+
+  .design-content-box1 {
+    top: 225px;
+  }
+
+  .design-content-box2 {
+    top: 1445px;
+
+  }
+
+  .design-content-box3 {
+    top: 2665px;
+  }
+
+  .design-content-box4 {
+    top: 3890px;
+  }
+
+  .design-card-img1,
+  .design-card-img2 {
+    position: absolute;
+    width: 320px;
+    height: 220px;
+  }
+
+  .design-card-txt1 {
+    left: 0;
+  }
+
+  .design-card2 {
+    top: 610px;
+  }
+
+  .design-card1,
+  .design-card2 {
+    height: 580px;
+    width: 320px;
+    font-size: var(--font-size-lgi-2);
+  }
+
+  .design-card-txt1,
+  .design-card-txt2 {
+    position: absolute;
+    width: 315px;
+    height: 335px;
+  }
+
+  .cardtxt1,
+  .cardtxt2,
+  .cardtxt3,
+  .cardtxt4 {
+    position: relative;
+    top: 250px;
+  }
+
+  .cardtxt3 {
+    top: 250px;
+  }
+
+  .design-card-img2 {
+    left: 0px;
+  }
+
+  .design-card-btn a {
+    height: 20px;
+    top: -18px;
+  }
+
+  .connection-box {
+    position: relative;
+    top: 5120px;
+    left: 0px;
+    width: 320px;
+    gap: 8px;
+    font-size: 25px;
+  }
+
+  .connection-box-p {
+    font-size: var(--font-size-mini);
+    text-align: center;
+  }
+
+  .connection-box-email {
+    font-size: var(--font-size-lgi-2);
+  }
+
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Owl Carousel Example</title>
+    <!-- Include Owl Carousel CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.1/css/all.css" >
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.1/css/sharp-duotone-thin.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.1/css/sharp-duotone-solid.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.1/css/sharp-duotone-regular.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.1/css/sharp-duotone-light.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.1/css/sharp-thin.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.1/css/sharp-solid.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.1/css/sharp-regular.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.1/css/sharp-light.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.1/css/duotone-thin.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.1/css/duotone-regular.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.1/css/duotone-light.css">
+
+
+    <style>
+        /* Ensure the owl-carousel container has a width and height */
+        .owl-carousel {
+            width: 80%;
+            margin: 0 auto;
+            transition: transform 0.5s ease-in-out; /* Smooth transition */
+        }
+
+        .owl-carousel .item {
+            background-color: #f4f4f4;
+            border-radius: 8px;
+            padding: 10px;
+            text-align: center;
+            transition: transform 0.5s ease-in-out; /* Smooth transition */
+        }
+
+        .owl-carousel img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        /* Navigation buttons */
+        .owl-nav button {
+            background-color: rgba(0, 0, 0, 0.5);
+            border: none;
+            padding: 10px;
+            color: white;
+            font-size: 16px;
+            border-radius: 50%;
+        }
+
+        .owl-nav button.owl-prev {
+            left: 10px;
+        }
+
+        .owl-nav button.owl-next {
+            right: 10px;
+        }
+
+        /* Pagination dots */
+        .owl-dots .owl-dot span {
+            background-color: rgba(0, 0, 0, 0.5);
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+        }
+
+        .owl-dots .owl-dot.active span {
+            background-color: #ff6f61;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Owl Carousel HTML -->
+    <div class="owl-carousel">
+        <div class="item">
+            <img src="../public/A18a.png" alt="Image 1">
+        </div>
+        <div class="item">
+            <img src="../public/A18b.png" alt="Image 2">
+        </div>
+        <div class="item">
+            <img src="../public/A18c.png" alt="Image 3">
+        </div>
+        <div class="item">
+            <img src="../public/A18d.png" alt="Image 4">
+        </div>
+        <div class="item">
+            <img src="../public/A18e.png" alt="Image 5">
+        </div>
+        <div class="item">
+            <img src="../public/A18f.png" alt="Image 6">
+        </div>
+        <div class="item">
+            <img src="../public/A18g.png" alt="Image 7">
+        </div>
+    </div>
+
+    <!-- jQuery and Owl Carousel JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <!-- Initialize Owl Carousel -->
+    <script>
+        $(document).ready(function () {
+            $(".owl-carousel").owlCarousel({
+                items: 3,       
+                margin: 10,     
+                loop: true,     
+                autoplay: true,    
+                autoplayTimeout: 1000, 
+                autoplayHoverPause: true, 
+                smartSpeed: 300,   
+                nav: true,       
+                dots: true,      
+                responsive: {
+                    0: {
+                        items: 1,  
+                    },
+                    600: {
+                        items: 2,  
+                    },
+                    1000: {
+                        items: 3,  
+                    }
+                }
+            });
+        });
+    </script>
+
+</body>
+
+</html>

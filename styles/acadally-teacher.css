@@ -1,0 +1,638 @@
+* {
+    user-select: none;
+}
+
+.acadally-student-page {
+    width: 100%;
+    position: relative;
+    background-color: var(--white);
+    height: 40200px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-mini);
+    color: var(--white);
+    font-family: var(--font-montserrat);
+}
+
+/* ================== HEADER ======================= */
+
+.content {
+    max-width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+
+/* ================== MEGICAL UNDERLINE EFFECT ======================= */
+.underline--magical {
+    display: inline-block;
+    background: linear-gradient(to right, #6166AE, #6166AE);
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: 0 100%;
+    transition: background-size 0.3s ease-in-out;
+}
+
+.underline--magical:hover {
+    background-size: 100% 100%;
+}
+
+
+
+
+
+/* ===================================================== */
+/* ================= adadally HEAD ===================== */
+
+.adadally-cont-head {
+    position: absolute;
+    top: 140px;
+    /* width: 1000px; */
+}
+
+
+.adadally-head,
+.adadally-head-txt,
+.adadally-head-img,
+.A7 {
+    position: absolute;
+    width: 1000px;
+}
+
+.adadally-head {
+    font-size: 75px;
+    letter-spacing: -4px;
+    font-weight: 900;
+    border-bottom: 4px solid var(--white);
+    padding-bottom: 15px;
+}
+
+.adadally-head-img {
+    top: 150px;
+    height: 575px;
+}
+
+.acadally-box-1,
+.acadally-box-2,
+.acadally-box-3,
+.acadally-box-4,
+.acadally-box-5,
+.acadally-box-6,
+.acadally-box-7,
+.acadally-box-8,
+.acadally-box-9,
+.acadally-box-10,
+.acadally-box-11,
+.acadally-box-12,
+.acadally-box-13,
+.acadally-box-14,
+.acadally-box-15,
+.acadally-box-16,
+.acadally-box-17,
+.acadally-box-18,
+.acadally-box-19,
+.acadally-box-20,
+.acadally-box-21,
+.acadally-box-22 {
+    position: absolute;
+    top: 920px;
+    width: 1000px;
+}
+
+
+.acadally-box-2 {
+    top: 1400px;
+}
+
+.acadally-box-3 {
+    top: 1780px;
+}
+
+.acadally-box-4 {
+    top: 2520px;
+}
+
+.acadally-box-5 {
+    top: 3100px;
+}
+
+.acadally-box-6 {
+    top: 3800px;
+}
+
+.acadally-box-7 {
+    top: 5000px;
+}
+
+.acadally-box-8 {
+    top: 5700px;
+}
+
+.acadally-box-9 {
+    top: 6320px;
+}
+
+.acadally-box-10 {
+    top: 7080px;
+}
+
+.acadally-box-11 {
+    top: 7680px;
+}
+
+.acadally-box-12 {
+    top: 10175px;
+}
+
+.acadally-box-13 {
+    top: 11170px;
+}
+
+
+.acadally-box-14 {
+    top: 13450px;
+}
+
+.acadally-box-15 {
+    top: 14400px;
+}
+
+.acadally-box-16 {
+    top: 21660px;
+}
+
+.acadally-box-17 {
+    top: 22470px;
+}
+
+.acadally-box-18 {
+    top: 32440px;
+}
+
+.acadally-box-20 {
+    top: 32890px;
+}
+
+.acadally-box-21 {
+    top: 33710px;
+}
+
+
+.acadally-box-22 {
+    top: 35500px;
+}
+
+
+.acadally-box-18 ul {
+    margin: 0;
+    padding: 0px;
+    margin-left: 25px;
+    color: #BBBBBB;
+}
+
+.acadally-box-18 ul li::marker {
+    color: #FF8A00;
+    font-size: 20px;
+}
+
+
+.acadally-box-5 h3 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.acadally-box-9 h3,
+.acadally-box-10 h3 {
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.acadally-box-5 h5 {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0px;
+}
+
+.ab1-h {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.ab2-h,
+.ab3-ha {
+    font-size: 24px;
+    font-weight: 700;
+    color: #8AB424;
+}
+
+.ab3-ha {
+    font-size: 34px;
+    font-weight: 900;
+}
+
+.ab3-h {
+    font-size: 36px;
+    border-left: 4px solid #6166AE;
+    padding-left: 20px;
+}
+
+.w7 p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #BBBBBB;
+}
+
+.w6 p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #BBBBBB;
+}
+
+.A2,
+.A18 {
+    position: relative;
+    top: -70px;
+}
+
+.A4c,
+.A4d,
+.A4e,
+.A4f {
+    position: relative;
+}
+
+.A4d {
+    left: 12%;
+}
+
+.A4e {
+    left: 24%;
+}
+
+.A4f {
+    left: 36%;
+}
+
+.student-back {
+    position: relative;
+}
+
+.background-image {
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    width: 300px;
+    height: auto;
+}
+
+.box6a,
+.box6b,
+.box6c {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 250px;
+    height: 375px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.box6img {
+    width: 100%;
+    height: 210px;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.box6cont h5 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 0 15px;
+    line-height: 1.2;
+}
+
+.box6cont p {
+    font-size: 12px;
+    line-height: 1.5;
+    margin: 0;
+    color: #BBBBBB;
+}
+
+.arrow-rgt {
+    width: 100px;
+    height: auto;
+    align-self: center;
+    position: relative;
+    top: -50px;
+}
+
+
+
+.A9,
+.A10,
+.A11,
+.A11a,
+.A11b,
+.A12,
+.A13,
+.A14,
+.A15a,
+.A15b,
+.A15c,
+.A15d,
+.A15e,
+.A15f,
+.A15g,
+.A15h,
+.A15i,
+.A15j,
+.A16,
+.A17a,
+.A17b,
+.A17c,
+.A17d,
+.A17e,
+.A17f,
+.A17g,
+.A20a,
+.A21,
+.A22 {
+    position: relative;
+    width: 1000px;
+}
+
+
+/* ================= OTHER PROJECT BOX ===================== */
+
+.other-proj-box {
+    position: absolute;
+    top: 39500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.frame {
+    z-index: 2;
+    width: 60%;
+    height: 60%;
+    border: 6px solid rgba(222, 233, 255, 0.9);
+    color: rgb(15, 9, 33);
+    background-color: rgba(222, 233, 255, 0.8);
+    box-shadow:
+        inset 0 0 30px rgba(15, 9, 33, 0.3),
+        0 0 18px rgba(222, 233, 255, 0.6);
+    overflow: hidden;
+}
+
+.struc {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.image {
+    position: absolute;
+    width: 6vw;
+    height: 6vw;
+    border-radius: 100%;
+    background-size: cover;
+    background-position: center;
+    box-shadow:
+        inset -0.6vw -0.6vw 3vw 0.15vw rgba(0, 0, 0, 0.9),
+        0.6vw 0.6vw 1.8vw -0.1vw rgba(0, 0, 0, 0.6);
+}
+
+/* Prep */
+
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+
+#main {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    color: rgba(222, 233, 255, 0.8);
+    background-color: rgb(15, 9, 33);
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Tahoma", sans-serif;
+}
+
+.fit {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+#image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    font-family: 'object-fit: cover;';
+    opacity: 0.4;
+    filter: blur(4px);
+}
+
+#credit {
+    position: absolute;
+    bottom: -1em;
+    right: -1em;
+    padding: 0.5em 1.7em 1.5em 0.7em;
+    border-radius: 0.5em;
+    background-color: rgba(15, 9, 33, 0.8);
+    text-align: right;
+}
+
+#credit>a {
+    color: rgba(222, 233, 255, 0.8) !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ============================================================ */
+/* =========================================================== */
+
+.col1 {
+    color: #6166AE;
+}
+
+.col2 {
+    color: #1C4CC3;
+}
+
+.col3 {
+    color: #E95436;
+}
+
+.col4 {
+    color: #8AB424;
+}
+
+.col5 {
+    color: #FFB8AA;
+}
+
+.col6 {
+    color: #D3F46C;
+}
+
+.col7 {
+    color: #FFF;
+}
+
+
+.dfsb {
+    display: flex;
+    justify-content: space-between;
+}
+.m0{
+    margin: 0px;
+}
+.p0{
+    padding: 0px;
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.mt30 {
+    margin-top: 30px;
+}
+
+.mt40 {
+    margin-top: 40px;
+}
+.f12 {
+    font-size: 12px;
+}
+
+.f16 {
+    font-size: 16px;
+}
+
+.fw7 {
+    font-weight: 700;
+}
+
+li {
+    color: #BBBBBB;
+    margin: 10px 0;
+}
+
+
+@media (max-width: 768px) {
+    .dfsb {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box6a,
+    .box6b,
+    .box6c {
+        width: 100%;
+        max-width: 300px;
+        /* Adjust for smaller screens */
+        margin-bottom: 20px;
+    }
+
+    .dfsb img {
+        margin: 10px 0;
+        /* Add spacing around arrows */
+    }
+}
