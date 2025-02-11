@@ -170,11 +170,11 @@
 }
 
 .card-box-p {
-  font-size: 15px;
+  font-size: 14px;
     font-weight: 400;
     line-height: 19px;
   text-align: justify;
-  color: #BBBBBB;
+  color: #A8A8A8;
 }
 
 .journey-frends {
@@ -191,6 +191,7 @@
   text-align: left;
   position: absolute;
   top: 80px;
+  color: #A8A8A8;
 }
 
 
@@ -232,7 +233,7 @@
 
 .team-info p {
   font-size: 18px;
-  color: #FFFFFF;
+  color: #A8A8A8;
   margin: 0;
 }
 

@@ -155,11 +155,13 @@
 
 .design-card-txt-p,
 .p-h {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 19px;
   text-align: justify;
   padding: 10px 0;
   border-top: 1px solid var(--white);
+  color: #B3B3B3;
+ 
 }
 
 

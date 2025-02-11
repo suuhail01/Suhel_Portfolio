@@ -555,6 +555,7 @@ html {
   line-height: 22px;
   border-top: 1px solid var(--white);
   border-bottom: 4px solid var(--white);
+  color: #A8A8A8;
 }
 
 
@@ -598,9 +599,10 @@ html {
 }
 
 .service-box-p {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 25px;
   padding: 20px 0;
+  color: #A8A8A8;
 }
 
 
@@ -678,6 +680,7 @@ html {
   position: absolute;
   top: 110px;
   font-size: var(--font-size-base);
+  color: #A8A8A8;
 }
 
 /* --------------------------------- */
@@ -760,6 +763,7 @@ html {
 .contact-us-txt-p {
   line-height: 23px;
   margin-bottom: 10px;
+  color: #A8A8A8;
 }
 
 .contact-us-send {
@@ -1076,6 +1080,14 @@ html {
   }
 
 }
+
+  /* ------------------Footer Box-------------- */
+.footer-box-left-txt {
+  font-size: 14px;
+  color: #A8A8A8;
+}
+
+
 
 
 @media only screen and (max-width:500px) {

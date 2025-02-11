@@ -58,10 +58,9 @@
   position: relative;
   text-align: left;
   top: 275px;
-  font-size: 19px;
+  font-size: 16px;
   line-height: 24.5px;
-
-  color: var(--white);
+  color: #A8A8A8;
   width: 1000px;
 }
 
@@ -81,6 +80,7 @@
 
 .process-box-h1 {
   letter-spacing: 1px;
+  
 }
 
 .process-box-p {
@@ -88,6 +88,7 @@
   top: 60px;
   font-size: var(--font-size-lgi-2);
   letter-spacing: 1.3px;
+  color: #A8A8A8;
 }
 
 .process-img {
@@ -121,6 +122,7 @@
   font-weight: 300;
   line-height: 36px;
   color: var(--color-gray-200);
+  color: #A8A8A8;
 }
 
 
