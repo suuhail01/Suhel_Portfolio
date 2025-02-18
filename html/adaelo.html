@@ -98,9 +98,8 @@
                 <a href="./index.html">
                     <img class="header-arrow" alt="" src="../public/headleft.svg" />
                 </a>
-
-                <img class="header-sh-img" alt="" src="../public/su_icon.svg" />
             </span>
+            <img class="header-sh-img" alt="" src="../public/su_icon.svg" />
             <div class="nav-bar">
                 <a href="./work.html" class="nav-box">My Work </a>
                 <a href="./journey.html" class="nav-box">My Journey</a>
@@ -1004,6 +1003,73 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
 
+
+
+    
+    <script>document.addEventListener("DOMContentLoaded", function () {
+        const cursor = document.querySelector('.cursor');
+        let mouseX = 0, mouseY = 0;
+        let dotX = 0, dotY = 0;
+
+        const delay = 0.3;
+
+        document.addEventListener('mousemove', (e) => {
+            mouseX = e.pageX;
+            mouseY = e.pageY;
+        });
+
+        function animateDot() {
+            dotX += (mouseX - dotX) * delay;
+            dotY += (mouseY - dotY) * delay;
+
+            cursor.style.left = `${dotX}px`;
+            cursor.style.top = `${dotY}px`;
+
+            requestAnimationFrame(animateDot);
+        }
+
+        animateDot();
+
+        // Function to enlarge the cursor
+        function enlargeCursor() {
+            cursor.style.width = '40px';
+            cursor.style.height = '40px';
+            cursor.style.transform = 'translate(-50%, -50%) scale(1.2)';
+            cursor.style.backgroundColor = 'rgba(255, 255, 255, 0.7)';
+        }
+
+        // Function to reset the cursor
+        function resetCursor() {
+            cursor.style.width = '15px';
+            cursor.style.height = '15px';
+            cursor.style.transform = 'translate(-50%, -50%) scale(1)';
+            cursor.style.backgroundColor = 'rgba(255, 255, 255, 1)';
+        }
+
+        // Function to add magnetic effect to a button
+        function addMagneticEffect(element) {
+            element.addEventListener('mousemove', (e) => {
+                const rect = element.getBoundingClientRect();
+                const x = e.clientX - rect.left - rect.width / 2;
+                const y = e.clientY - rect.top - rect.height / 2;
+
+                element.style.transform = `translate(${x * 0.3}px, ${y * 0.3}px)`;
+            });
+
+            element.addEventListener('mouseleave', () => {
+                element.style.transform = 'translate(0, 0)';
+            });
+        }
+
+        // Select all the buttons and links for hover effects
+        const buttons = document.querySelectorAll('.design-card-btn a, .nav-box');
+        buttons.forEach(button => {
+            button.addEventListener('mouseenter', enlargeCursor);
+            button.addEventListener('mouseleave', resetCursor);
+            addMagneticEffect(button);
+        });
+    });
+</script>
 
 
 </body>

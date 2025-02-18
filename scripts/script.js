@@ -102,6 +102,53 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
+
+
+
+
+
+
+
+    // // Disable Right Click
+    // document.addEventListener("contextmenu", (event) => event.preventDefault());
+
+    // // Disable Developer Tools (F12, Ctrl+Shift+I, Ctrl+Shift+J, Ctrl+Shift+C)
+    // document.addEventListener("keydown", (event) => {
+    //     if (
+    //         event.ctrlKey && (event.key === "u" || event.key === "U") || // Ctrl+U
+    //         event.key === "F12" || // F12
+    //         (event.ctrlKey && event.shiftKey && (event.key === "I" || event.key === "J" || event.key === "C")) // Ctrl+Shift+I/J/C
+    //     ) {
+    //         event.preventDefault();
+    //     }
+    // });
+
+    // // Disable Text Selection
+    // document.addEventListener("selectstart", (event) => event.preventDefault());
+
+    // // Disable Copying
+    // document.addEventListener("copy", (event) => event.preventDefault());
+
+    // // Prevent Dragging of Images
+    // document.addEventListener("dragstart", (event) => event.preventDefault());
+
+    // // Detect Developer Tools Opened
+    // setInterval(() => {
+    //     if (window.outerWidth - window.innerWidth > 100 || window.outerHeight - window.innerHeight > 100) {
+    //         document.body.innerHTML = "<h1 style='text-align:center;margin-top:20%;'>Unauthorized Access Detected</h1>";
+    //     }
+    // }, 1000);
+
+
+
+
+
+
+
+
+
+
+
     // ===========================
     // Disable Right-Click and Text Selection
     // ===========================
