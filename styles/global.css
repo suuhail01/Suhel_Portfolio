@@ -444,9 +444,11 @@ html {
 }
 
 .footer-box-left-txt {
-  font-size: 17px;
   font-weight: 700;
+  font-size: 14px;
+  color: #A8A8A8;
 }
+
 
 .footer-box-left-txt span {
   font-weight: 400;
