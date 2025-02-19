@@ -7,7 +7,7 @@
   position: relative;
   background-color: var(--green);
   /* height: 2200px; */
-  height: 17700px;
+  height: 19350px;
   overflow: hidden;
   text-align: left;
   font-size: var(--font-size-mini);
@@ -19,7 +19,7 @@
 /* ================== HEADER ======================= */
 
 .content {
-  max-width: 900px;
+  max-width: 1000px;
   height: 100%;
   margin: 0 auto;
 }
@@ -46,14 +46,14 @@
 .gexa-cont-head {
   position: absolute;
   top: 150px;
-  width: 900px;
+  width: 1000px;
 }
 
 .gexa-head,
 .gexa-head-txt,
 .gexa-head-img {
   position: absolute;
-  width: 900px;
+  width: 1000px;
 }
 
 .gexa-head {
@@ -81,7 +81,7 @@
 .highlight-box-1,
 .highlight-box-2 {
   position: absolute;
-  width: 900px;
+  width: 1000px;
   top: 850px;
   /* padding-top: 30px; */
   /* border-top: 6px solid; */
@@ -135,7 +135,7 @@
 .highlight-box-mid {
   position: absolute;
   top: 1110px;
-  width: 900px;
+  width: 1000px;
   height: 61px;
   text-align: center;
   border-top: 1px solid var(--white);
@@ -146,7 +146,7 @@
 .highlight-box-mid3 {
   position: absolute;
   top: 25px;
-  width: 285px;
+  width: 320px;
   height: 16px;
   padding-bottom: 20px;
   border-bottom: 1px solid var(--white);
@@ -154,11 +154,11 @@
 }
 
 .highlight-box-mid2 {
-  left: 309px;
+  left: 340px;
 }
 
 .highlight-box-mid3 {
-  left: 615px;
+  left: 680px;
 }
 
 /* ===================================================== */
@@ -167,7 +167,7 @@
 .prob-poss-box {
   position: absolute;
   top: 1560px;
-  width: 900px;
+  width: 1000px;
   height: 240px;
   /* padding: 0px 0; */
   /* border-top: 4px solid var(--white); */
@@ -179,15 +179,15 @@
 .poss-box {
   position: absolute;
   top: 32px;
-  width: 400px;
+  width: 430px;
   text-align: justify;
   
 }
 
 
 .poss-box {
-  left: 544px;
-  width: 355px;
+  left: 570px;
+  width: 430px;
 }
 
 .vs-img {
@@ -211,8 +211,8 @@
 .prob-poss-img {
   position: absolute;
   top: 40px;
-  left: 450px;
-  width: 55px;
+  left: 470px;
+  width: 60px;
 }
 
 /* ============================================= */
@@ -228,7 +228,7 @@
   position: absolute;
   top: 90px;
   font-weight: 400;
-  width: 900px;
+  width: 1000px;
   text-align: left;
   font-size: 16px;;
   color: #A8A8A8;
@@ -254,7 +254,7 @@
   /* padding-top: 20px; */
   position: absolute;
   top: 1890px;
-  width: 900px;
+  width: 1000px;
 }
 
 
@@ -262,65 +262,70 @@
 /* ==================== UI-INT BOX ===================== */
 
 .ui-int-box {
-  top: 2550px;
+  top: 2670px;
 }
 
 /* ===================================================== */
 /* ================= DESIGN-PROC BOX ===================== */
 
 .comp-analysis-box {
-  top: 3370px;
+  top: 3570px;
 }
 
 /* ===================================================== */
 /* ================= USER PERSONA BOX ===================== */
 
 .user-pers-box {
-  top: 4270px;
+  top: 4560px;
 }
 
 /* ===================================================== */
 /* ================= EMPATHY MAP BOX ===================== */
 
 .empathy_map {
-  top: 5200px;
+  top: 5600px;
 }
 
-
+/* ===================================================== */
 /* ================= INFORMATION ARCH. BOX ===================== */
 
 .info_arch-box {
-  top: 6320px;
+  top: 6830px;
 }
 
-
+/* ===================================================== */
 /* ================= PROCESS FLOW BOX ===================== */
 
 .process-flow-box {
-  top: 7170px;
+  top: 7790px;
 }
 
-
+/* ===================================================== */
 /* ================= PROCESS FLOW 1 BOX ===================== */
 
 .process-flow-box1 {
-  top: 7980px;
+  top: 8700px;
 }
 
+/* ===================================================== */
 /* ================= PROCESS FLOW 2 BOX ===================== */
 
 .process-flow-box2 {
-  top: 9350px;
+  top: 10220px;
 }
 
+/* ===================================================== */
+/* ================= PROCESS FLOW 3 BOX ===================== */
 
 .process-flow-box3 {
-  top: 12000px;
+  top: 13130px;
 }
 
+/* ===================================================== */
+/* ================= PROCESS FLOW 4 BOX ===================== */
 
 .process-flow-box4 {
-  top: 15090px;
+  top: 16570px;
 }
 
 /* ======================= */
@@ -343,8 +348,8 @@
 .common-img16,
 .common-img17 {
   position: relative;
-  top: 20px;
-  width: 900px;
+  top: 40px;
+  width: 1000px;
 }
 
 .common-img2,
@@ -400,7 +405,7 @@
 .other-proj-box {
   position: absolute;
   /* top: 1580px; */
-  top: 17030px;
+  top: 18680px;
 }
 
 

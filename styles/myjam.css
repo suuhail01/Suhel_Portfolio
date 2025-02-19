@@ -2,11 +2,11 @@
     user-select: none;
 }
 
-.acadally-student-page {
+.myjam-page {
     width: 100%;
     position: relative;
     background-color: var(--white);
-    height: 40200px;
+    height: 28500px;
     overflow: hidden;
     text-align: left;
     font-size: var(--font-size-mini);
@@ -17,7 +17,7 @@
 /* ================== HEADER ======================= */
 
 .content {
-    max-width: 900px;
+    max-width: 1000px;
     height: 100%;
     margin: 0 auto;
 }
@@ -38,16 +38,13 @@
 }
 
 
-
-
-
 /* ===================================================== */
 /* ================= adadally HEAD ===================== */
 
 .adadally-cont-head {
     position: absolute;
     top: 140px;
-    /* width: 900px; */
+    /* width: 1000px; */
 }
 
 
@@ -56,7 +53,7 @@
 .adadally-head-img,
 .A7 {
     position: absolute;
-    width: 900px;
+    width: 1000px;
 }
 
 .adadally-head {
@@ -97,76 +94,76 @@
 .acadally-box-23 {
     position: absolute;
     top: 920px;
-    width: 900px;
+    width: 1000px;
 }
 
 
 .acadally-box-2 {
-    top: 1400px;
+    top: 1320px;
 }
 
 .acadally-box-3 {
-    top: 2220px;
+    top: 2330px;
 }
 
 .acadally-box-4 {
-    top: 2575px;
+    top: 2655px;
 }
 
 .acadally-box-5 {
-    top: 3000px;
+    top: 3030px;
 }
 
 .acadally-box-6 {
-    top: 3640px;
+    top: 3710px;
 }
 
 .acadally-box-7 {
-    top: 4350px;
+    top: 4500px;
 }
 
 .acadally-box-8 {
-    top: 4760px;
+    top: 4910px;
 }
 
 .acadally-box-9 {
-    top: 5820px;
+    top: 6100px;
 }
 
 .acadally-box-10 {
-    top: 6500px;
+    top: 6860px;
 }
 
 .acadally-box-11 {
-    top: 7100px;
+    top: 7510px;
 }
 
 .acadally-box-12 {
-    top: 7830px;
+    top: 8320px;
 }
 
 .acadally-box-13 {
-    top: 10730px;
+    top: 11520px;
 }
 
 .acadally-box-14 {
-    top: 12910px;
+    top: 13910px;
 }
 
 .acadally-box-15 {
-    top: 15320px;
+    top: 16560px;
 }
 
 .acadally-box-16 {
-    top: 16660px;
+    top: 18020px;
 }
 
 .acadally-box-17 {
-    top: 24010px;
+    top: 26150px;
 }
 
 .acadally-box-18 {
-    top: 25000px;
+    top: 27200px;
 }
 
 .acadally-box-20 {
@@ -369,7 +366,7 @@
 .A21,
 .A22 {
     position: relative;
-    width: 900px;
+    width: 1000px;
 }
 
 
@@ -377,53 +374,8 @@
 
 .other-proj-box {
     position: absolute;
-    top: 25650px;
+    top: 27870px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .frame {
     z-index: 2;

@@ -488,6 +488,27 @@ html {
   color: #fff;
 }
 
+.homestudent a:hover{
+  color: #ff8a00;
+}
+
+.hometeacher a:hover{
+  color: #6166AE;
+}
+.homegexa a:hover{
+  color: #36A629;
+}
+.homemyjam a:hover{
+  color: #FF00F9;
+}
+.homeadaelo a:hover{
+  color: #FFFFFF;
+}
+.homecare a:hover{
+  color: #54B4B5;
+}
+
+
 .work-card-txt-p {
   padding: 15px 0;
   border-bottom: 3px solid var(--white);
