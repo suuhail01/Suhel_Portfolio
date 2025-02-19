@@ -252,6 +252,7 @@
   position: absolute;
   top: 110px;
   font-size: var(--font-size-base);
+  color: #A8A8A8;
 }
 
 /* --------------------------------- */
@@ -315,10 +316,11 @@
 
 .contact-us-right1 {
   position: absolute;
-  top: 30px;
-  left: -15px;
+  top: 65px;
+  left: 20px;
   width: 260px;
   font-size: var(--font-size-7xl);
+  text-align: left;
 }
 
 .contact-us-txt {
@@ -355,7 +357,9 @@
   background-color: var(--white);
   color: var(--m3-black);
 } */
-
+.txt-p {
+  margin: 0;
+}
 
 .social-icon {
   padding: 10px 0;
