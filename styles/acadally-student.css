@@ -6,7 +6,7 @@
     width: 100%;
     position: relative;
     background-color: var(--white);
-    height: 40900px;
+    height: 41000px;
     overflow: hidden;
     text-align: left;
     font-size: var(--font-size-mini);
@@ -166,22 +166,22 @@
 }
 
 .acadally-box-18 {
-    top: 35050px;
+    top: 35080px;
 }
 
 .acadally-box-19 {
-    top: 36030px;
+    top: 36070px;
 }
 
 .acadally-box-20 {
-    top: 36650px;
+    top: 36700px;
 }
 
 .acadally-box-21 {
-    top: 37500px;
+    top: 37570px;
 }
 .acadally-box-22 {
-    top: 39500px;
+    top: 39550px;
 }
 
 .acadally-box-18 ul {
@@ -375,7 +375,7 @@
 
 .other-proj-box {
     position: absolute;
-    top: 40200px;
+    top: 40250px;
 }
 
 

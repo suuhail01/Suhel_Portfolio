@@ -63,7 +63,7 @@
     font-size: 75px;
     letter-spacing: -4px;
     font-weight: 900;
-    border-bottom: 4px solid var(--white);
+    /* border-bottom: 4px solid var(--white); */
     padding-bottom: 15px;
 }
 
