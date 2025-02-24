@@ -1,139 +1,306 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en_US">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Owl Carousel Example</title>
-    <!-- Include Owl Carousel CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
-    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.1/css/all.css" >
-    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.1/css/sharp-duotone-thin.css">
-    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.1/css/sharp-duotone-solid.css">
-    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.1/css/sharp-duotone-regular.css">
-    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.1/css/sharp-duotone-light.css">
-    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.1/css/sharp-thin.css">
-    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.1/css/sharp-solid.css">
-    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.1/css/sharp-regular.css">
-    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.1/css/sharp-light.css">
-    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.1/css/duotone-thin.css">
-    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.1/css/duotone-regular.css">
-    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.1/css/duotone-light.css">
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-K84FZC5M');</script>
+  <!-- End Google Tag Manager -->
 
+  <!-- Stylesheets and Scripts -->
+  <link rel="stylesheet" href="../styles/global.css">
+  <link rel="stylesheet" href="../styles/work.css" />
 
-    <style>
-        /* Ensure the owl-carousel container has a width and height */
-        .owl-carousel {
-            width: 80%;
-            margin: 0 auto;
-            transition: transform 0.5s ease-in-out; /* Smooth transition */
-        }
-
-        .owl-carousel .item {
-            background-color: #f4f4f4;
-            border-radius: 8px;
-            padding: 10px;
-            text-align: center;
-            transition: transform 0.5s ease-in-out; /* Smooth transition */
-        }
-
-        .owl-carousel img {
-            width: 100%;
-            height: auto;
-            border-radius: 8px;
-        }
-
-        /* Navigation buttons */
-        .owl-nav button {
-            background-color: rgba(0, 0, 0, 0.5);
-            border: none;
-            padding: 10px;
-            color: white;
-            font-size: 16px;
-            border-radius: 50%;
-        }
-
-        .owl-nav button.owl-prev {
-            left: 10px;
-        }
-
-        .owl-nav button.owl-next {
-            right: 10px;
-        }
-
-        /* Pagination dots */
-        .owl-dots .owl-dot span {
-            background-color: rgba(0, 0, 0, 0.5);
-            width: 12px;
-            height: 12px;
-            border-radius: 50%;
-        }
-
-        .owl-dots .owl-dot.active span {
-            background-color: #ff6f61;
-        }
-    </style>
 </head>
 
 <body>
 
-    <!-- Owl Carousel HTML -->
-    <div class="owl-carousel">
-        <div class="item">
-            <img src="../public/A18a.png" alt="Image 1">
-        </div>
-        <div class="item">
-            <img src="../public/A18b.png" alt="Image 2">
-        </div>
-        <div class="item">
-            <img src="../public/A18c.png" alt="Image 3">
-        </div>
-        <div class="item">
-            <img src="../public/A18d.png" alt="Image 4">
-        </div>
-        <div class="item">
-            <img src="../public/A18e.png" alt="Image 5">
-        </div>
-        <div class="item">
-            <img src="../public/A18f.png" alt="Image 6">
-        </div>
-        <div class="item">
-            <img src="../public/A18g.png" alt="Image 7">
-        </div>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K84FZC5M" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <!-- ======================== LOADER ======================= -->
+  <!-- ======================================================= -->
+  <div class="loader">
+    <div class="loader__tile"></div>
+    <div class="loader__tile"></div>
+    <div class="loader__tile"></div>
+    <div class="loader__tile"></div>
+  </div>
+
+
+  <div class="design-page">
+
+    <div class="screen-bck"></div>
+    <img class="screen-bck-img" alt="" src="../public/Rectangle.png" />
+
+    <!-- --------------------------- HEADER ---------------------------- -->
+    <!-- --------------------------------------------------------------- -->
+
+
+    <div class="mobile-navbar">
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <a href="./index.html">
+        <img class="header-arrow" alt="" src="../public/headleft.svg" />
+      </a>
+      <div class="mobile-nav-menu" id="mobileNavMenu">
+        <a href="./work.html">My Work</a>
+        <a href="./services.html">My Services</a>
+        <a href="./journey.html">My Journey</a>
+      </div>
     </div>
 
-    <!-- jQuery and Owl Carousel JS -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <div class="header">
+      <span class="arrow" style="display: block;">
+        <a href="javascript:void(0);" onclick="goBack()">
+          <img class="header-arrow" alt="" src="../public/headleft.svg" />
+        </a>
+      </span>
+      <img class="header-sh-img" alt="" src="../public/su_icon.svg" />
+      <div class="nav-bar">
+        <a href="./work.html" class="nav-box active">My Work </a>
+        <a href="./services.html" class="nav-box">My Services</a>
+        <a href="./journey.html" class="nav-box">My Journey</a>
+      </div>
+    </div>
 
-    <!-- Initialize Owl Carousel -->
-    <script>
-        $(document).ready(function () {
-            $(".owl-carousel").owlCarousel({
-                items: 3,       
-                margin: 10,     
-                loop: true,     
-                autoplay: true,    
-                autoplayTimeout: 1000, 
-                autoplayHoverPause: true, 
-                smartSpeed: 300,   
-                nav: true,       
-                dots: true,      
-                responsive: {
-                    0: {
-                        items: 1,  
-                    },
-                    600: {
-                        items: 2,  
-                    },
-                    1000: {
-                        items: 3,  
-                    }
-                }
-            });
-        });
-    </script>
+    <!-- -------------------- CONTENT ----------------------- -->
+    <!-- ---------------------------------------------------- -->
+
+    <div class="content">
+
+      <div class="box-head">
+        <div class="box-head-txt">My Design Projects</div>
+      </div>
+      <div class="tab-container">
+        <!-- <div class="tab active">All Projects</div> -->
+        <div class="tab active">Mobile App</div>
+        <div class="tab">Web App</div>
+        <div class="tab">Websites</div>
+      </div>
+
+      <!-- ----------------- APP CONTENT BOX ------------------- -->
+
+      <div class="mobapp-content-box">
+
+        <!-- ------------------------- CARD : 1 ------------------------  -->
+        <div class="design-card1">
+
+          <img class="design-card-img1" id="hoverImage1" src="../public/abc1.png" alt="Image 1" />
+
+          <div class="design-card-txt1 cardtxt1">
+            <div class="design-card-txt-p p-h">#Case Study · Ed. Tech · Mobile / Web App · 2024</div>
+            <div class="design-card-txt-h1">AcadAlly (Student)</div>
+            <div class="design-card-txt-p">
+              AcadAlly is a diagnostic app that assesses students' grasp of concepts through quick quizzes. If a
+              learning gap is found, it delivers a personalized, adaptive assessment and engaging videos to reinforce
+              understanding. Real-time reports inform students and educators about progress, highlighting areas for
+              improvement or proficiency.
+            </div>
+
+            <div class="design-card-btn">
+              <a href="./acadally-student.html" class="ripple-effect">View Case Study</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+      <!-- --------------------------------- -->
+
+      <div class="webApp-content-box">
+
+
+        
+        <!-- ------------------------- CARD : 1 ------------------------  -->
+        <div class="design-card1">
+
+          <img class="design-card-img1" id="hoverImage1" src="../public/abc1.png" alt="Image 1" />
+
+          <div class="design-card-txt1 cardtxt1">
+            <div class="design-card-txt-p p-h">#Case Study · Ed. Tech · Mobile / Web App · 2024</div>
+            <div class="design-card-txt-h1">AcadAlly (Student)</div>
+            <div class="design-card-txt-p">
+              AcadAlly is a diagnostic app that assesses students' grasp of concepts through quick quizzes. If a
+              learning gap is found, it delivers a personalized, adaptive assessment and engaging videos to reinforce
+              understanding. Real-time reports inform students and educators about progress, highlighting areas for
+              improvement or proficiency.
+            </div>
+
+            <div class="design-card-btn">
+              <a href="./acadally-student.html" class="ripple-effect">View Case Study</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!-- -------------------------------------------- -->
+
+      <div class="website-content-box">
+
+
+        
+        <!-- ------------------------- CARD : 1 ------------------------  -->
+        <div class="design-card1">
+
+          <img class="design-card-img1" id="hoverImage1" src="../public/abc1.png" alt="Image 1" />
+
+          <div class="design-card-txt1 cardtxt1">
+            <div class="design-card-txt-p p-h">#Case Study · Ed. Tech · Mobile / Web App · 2024</div>
+            <div class="design-card-txt-h1">AcadAlly (Student)</div>
+            <div class="design-card-txt-p">
+              AcadAlly is a diagnostic app that assesses students' grasp of concepts through quick quizzes. If a
+              learning gap is found, it delivers a personalized, adaptive assessment and engaging videos to reinforce
+              understanding. Real-time reports inform students and educators about progress, highlighting areas for
+              improvement or proficiency.
+            </div>
+
+            <div class="design-card-btn">
+              <a href="./acadally-student.html" class="ripple-effect">View Case Study</a>
+            </div>
+          </div>
+        </div>
+
+        
+
+      </div>
+
+
+
+
+      <!-- ----------------- CONNECTION BOX ------------------- -->
+      <!-- ---------------------------------------------------- -->
+
+      <div class="connection-box">
+        <div class="connection-box-h1" data-aos="fade-up" data-aos-delay="50">Want to work together?</div>
+        <div class="connection-box-p" data-aos="fade-up" data-aos-delay="100">
+          If you like what you see and want to work together, get in touch!
+        </div>
+        <div class="connection-box-email" data-aos="fade-up" data-aos-delay="100">sirsuhail01@gmail.com</div>
+      </div>
+
+      <!-- ----------------- SCROLL TO TOP ------------------- -->
+      <!-- ---------------------------------------------------- -->
+
+      <button id="scrollToTopBtn" style="right: 65px;">
+        <i class="fa-solid fa-arrow-up"></i>
+      </button>
+
+      <!-- ---------------  FOOTER TOP TEXT ----------------- -->
+      <!-- -------------------------------------------------- -->
+
+      <div class="footer-toptext">
+        <p>For the best <span> User Experience</span>,</p>
+        <p> please open on a</p>
+        <p><span>Desktop or Laptop.</span></p>
+      </div>
+
+
+      <!-- ------------------- FOOTER----------------------- -->
+      <!-- ------------------------------------------------- -->
+
+      <div class="footer-box">
+        <div class="footer-box-left">
+          <img class="footer-box-left-img" alt="" src="../public/su_icon.svg" />
+          <div class="footer-box-left-txt">© 2024 Suhail
+            <span> (All rights reserved, but ideas are free. Let's connect!)</span>
+          </div>
+        </div>
+        <div class="footer-box-right">
+          <a href="https://www.linkedin.com" target="_blank" class="linkedin" aria-label="LinkedIn"><i
+              class="fa-brands fa-linkedin"></i></a>
+          <a href="https://www.behance.net" target="_blank" class="behance" aria-label="Behance"><i
+              class="fa-brands fa-square-behance"></i></a>
+          <a href="https://www.instagram.com" target="_blank" class="instagram" aria-label="Instagram"><i
+              class="fa-brands fa-square-instagram"></i></a>
+        </div>
+      </div>
+
+    </div>
+
+
+    <!-- ----------------------- CUSTOM CURSOR ------------------------- -->
+    <!-- --------------------------------------------------------------- -->
+    <div id="cursor" class="cursor"></div>
+
+  </div>
+
+  <!-- ------------------- SCRIPT ----------------------- -->
+
+  <script src="../scripts/script.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      once: true
+    });
+  </script>
+
+
+  <script>
+    // Function to add hover effect for images
+    function addHoverEffect(imgId, hoverSrc, originalSrc) {
+      const img = document.getElementById(imgId);
+      img.addEventListener('mouseover', function () {
+        img.src = hoverSrc;
+      });
+
+      img.addEventListener('mouseout', function () {
+        img.src = originalSrc;
+      });
+    }
+
+    // Apply hover effects for all images
+    addHoverEffect('hoverImage1', '../public/abc-hov1.png', '../public/abc1.png');
+    addHoverEffect('hoverImage2', '../public/abc-hov2.png', '../public/abc2.png');
+    addHoverEffect('hoverImage3', '../public/abc-hov3.png', '../public/abc3.png');
+    addHoverEffect('hoverImage4', '../public/abc-hov4.png', '../public/abc4.png');
+    addHoverEffect('hoverImage5', '../public/abc-hov5.png', '../public/abc5.png');
+    addHoverEffect('hoverImage6', '../public/abc-hov6.png', '../public/abc6.png');
+    addHoverEffect('hoverImage7', '../public/abc-hov7.png', '../public/abc7.png');
+    addHoverEffect('hoverImage8', '../public/abc-hov8.png', '../public/abc8.png');
+  </script>
+
+
+
+
+  <script>
+    const buttons = document.querySelectorAll('.ripple-effect');
+
+    buttons.forEach((button) => {
+      button.addEventListener('click', (e) => {
+        const ANIMATION_SPEED = 1000;
+        // Get the position of the click relative to the button
+        const x = e.clientX - button.getBoundingClientRect().left;
+        const y = e.clientY - button.getBoundingClientRect().top;
+        // Create the ripple element
+        const ripple = document.createElement('div');
+        ripple.classList.add('ripple');
+        ripple.style.left = `${x}px`;
+        ripple.style.top = `${y}px`;
+        button.appendChild(ripple);
+        // Remove the ripple after the animation is done
+        setTimeout(() => {
+          ripple.remove();
+        }, ANIMATION_SPEED);
+      });
+    });
+  </script>
+
+
 
 </body>
 

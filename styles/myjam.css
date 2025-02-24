@@ -6,7 +6,7 @@
     width: 100%;
     position: relative;
     background-color: var(--white);
-    height: 28500px;
+    height: 28860px;
     overflow: hidden;
     text-align: left;
     font-size: var(--font-size-mini);
@@ -86,12 +86,7 @@
 .acadally-box-15,
 .acadally-box-16,
 .acadally-box-17,
-.acadally-box-18,
-.acadally-box-19,
-.acadally-box-20,
-.acadally-box-21,
-.acadally-box-22,
-.acadally-box-23 {
+.acadally-box-18 {
     position: absolute;
     top: 920px;
     width: 1000px;
@@ -159,29 +154,14 @@
 }
 
 .acadally-box-17 {
-    top: 26150px;
+    top: 26430px;
 }
 
 .acadally-box-18 {
-    top: 27200px;
-}
-
-.acadally-box-20 {
-    top: 32890px;
-}
-
-.acadally-box-21 {
-    top: 33710px;
+    top: 27500px;
 }
 
 
-.acadally-box-22 {
-    top: 35500px;
-}
-
-.acadally-box-23 {
-    top: 36000px;
-}
 
 .acadally-box-18 ul {
     margin: 0;
@@ -374,7 +354,7 @@
 
 .other-proj-box {
     position: absolute;
-    top: 27870px;
+    top: 28180px;
 }
 
 .frame {
@@ -616,6 +596,9 @@ body {
 }
 .mt70 {
     margin-top: 70px;
+}
+.mt80 {
+    margin-top: 80px;
 }
 
 .f16 {

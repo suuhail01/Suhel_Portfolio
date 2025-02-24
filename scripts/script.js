@@ -286,6 +286,8 @@ document.addEventListener("DOMContentLoaded", function () {
 //     );
 // });
 
+// ============================ GO BACK =============================
+
 
 function goBack() {
     if (document.referrer) {
@@ -376,9 +378,99 @@ window.addEventListener('load', function () {
 
 
 
+// document.addEventListener('DOMContentLoaded', function () {
+//     // Get all tabs and content boxes
+//     const tabs = document.querySelectorAll('.tab');
+//     const contentBoxes = document.querySelectorAll('.mobapp-content-box, .webApp-content-box, .website-content-box');
+  
+//     // Function to handle tab click
+//     function handleTabClick(event) {
+//       // Remove the 'active' class from all tabs
+//       tabs.forEach(tab => tab.classList.remove('active'));
+  
+//       // Add 'active' class to the clicked tab
+//       event.target.classList.add('active');
+  
+//       // Hide all content boxes
+//       contentBoxes.forEach(box => box.style.display = 'none');
+  
+//       // Show the relevant content box based on the clicked tab
+//       if (event.target.textContent === 'Mobile App') {
+//         document.querySelector('.mobapp-content-box').style.display = 'block';
+//       } else if (event.target.textContent === 'Web App') {
+//         document.querySelector('.webApp-content-box').style.display = 'block';
+//       } else if (event.target.textContent === 'Websites') {
+//         document.querySelector('.website-content-box').style.display = 'block';
+//       }
+//     }
+  
+//     // Add click event listener to each tab
+//     tabs.forEach(tab => {
+//       tab.addEventListener('click', handleTabClick);
+//     });
+  
+//     // Set default active tab and content box
+//     document.querySelector('.tab.active').click();
+//   });
+  
 
 
 
+
+
+
+
+
+
+
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    // Select all tabs and content boxes
+    const tabs = document.querySelectorAll('.tab');
+    const mobappContentBox = document.querySelector('.mobapp-content-box');
+    const webAppContentBox = document.querySelector('.webApp-content-box');
+    const websiteContentBox = document.querySelector('.website-content-box');
+  
+    // Set the default active tab and content box
+    mobappContentBox.style.display = 'block'; // Show the Mobile App content by default
+    tabs[0].classList.add('active'); // Set the "Mobile App" tab as active
+  
+    // Function to hide all content boxes
+    function hideContentBoxes() {
+      mobappContentBox.style.display = 'none';
+      webAppContentBox.style.display = 'none';
+      websiteContentBox.style.display = 'none';
+    }
+  
+    // Function to handle tab click
+    function handleTabClick(event) {
+      // Remove 'active' class from all tabs
+      tabs.forEach(tab => tab.classList.remove('active'));
+  
+      // Add 'active' class to the clicked tab
+      event.target.classList.add('active');
+  
+      // Hide all content boxes
+      hideContentBoxes();
+  
+      // Show the corresponding content box based on the clicked tab
+      if (event.target.textContent === 'Mobile App') {
+        mobappContentBox.style.display = 'block';
+      } else if (event.target.textContent === 'Web App') {
+        webAppContentBox.style.display = 'block';
+      } else if (event.target.textContent === 'Websites') {
+        websiteContentBox.style.display = 'block';
+      }
+    }
+  
+    // Add click event listener to each tab
+    tabs.forEach(tab => tab.addEventListener('click', handleTabClick));
+  
+    // Ensure the connection box remains in its position
+    connectionBox.style.position = 'relative';
+  });
+  
 
 
 
