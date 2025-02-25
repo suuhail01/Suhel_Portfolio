@@ -260,7 +260,9 @@
     top: 225px;
   }
 
-  .mobapp-content-box {
+  .mobapp-content-box,
+  .webApp-content-box,
+  .website-content-box {
     top: 325px;
   }
 
@@ -300,9 +302,17 @@
 
   }
 
-  .design-card2 {
+  /* .design-card2 {
     top: 390px;
-  }
+  } */
+
+  .design-card1, .design-card2, .design-card3, .design-card4, .design-card5, .design-card6, .design-card7, .design-card8 {
+    position: relative;
+    height: 590px;
+    width: 320px;
+    font-size: var(--font-size-lgi-2);
+    margin-bottom: 35px;
+}
 
   .connection-box {
     top: 3425px;
@@ -345,7 +355,9 @@
     font-size: 10.7px;
   }
 
-  .mobapp-content-box {
+  .mobapp-content-box,
+  .webApp-content-box,
+  .website-content-box {
     top: 225px;
   }
 
@@ -360,7 +372,20 @@
     left: 0;
   }
 
-  .design-card2 {
+
+  .design-card1, .design-card2, .design-card3, .design-card4, .design-card5, .design-card6, .design-card7, .design-card8 {
+    position: relative;
+    height: 590px;
+    width: 320px;
+    font-size: var(--font-size-lgi-2);
+    margin-bottom: 35px;
+}
+
+
+
+
+
+  /* .design-card2 {
     top: 610px;
   }
 
@@ -369,7 +394,7 @@
     height: 580px;
     width: 320px;
     font-size: var(--font-size-lgi-2);
-  }
+  } */
 
   .design-card-txt1,
   .design-card-txt2 {

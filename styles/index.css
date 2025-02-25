@@ -860,6 +860,7 @@ html {
     width: 120px;
   }
 
+
   .name-box-grp-img1 {
     width: 300px;
     height: 150px;
@@ -872,9 +873,16 @@ html {
     height: 215px;
   }
 
+  .name-box-txt2{
+    display: none;
+  }
   .name-box-grp-txt {
-    top: -10px;
-    left: 257px;
+    display: none;
+  }
+
+  .name-box .avatar .image {
+    height: 300px;
+    width: 330px;
   }
 
   .name-box-grp-circle {
@@ -1116,15 +1124,18 @@ html {
   /* For mobile phones: */
 
   .home-page {
-    height: 4444px;
+    height: 4500px;
   }
 
   .suhail-mobile-name {
     display: block;
+    position: relative;
+    top:-50px ;
   }
 
   .name-box .avatar {
     display: block;
+    top: 10px;
   }
 
 
@@ -1146,6 +1157,12 @@ html {
     left: 0px;
   }
 
+  .name-box .avatar .image {
+    height: 300px;
+    width: 300px;
+    position: relative;
+    top: 30px;
+  }
 
   .name-box-grp-img1,
   .name-box-grp-img2,
@@ -1165,7 +1182,7 @@ html {
   }
 
   .name-box-h1 {
-    top: 400px;
+    top: 380px;
     font-size: var(--font-size-lg);
     left: 25%;
   }
@@ -1227,7 +1244,7 @@ html {
   /* ------------------------------ */
 
   .work-box {
-    top: 700px;
+    top: 610px;
   }
 
   .box-head {
@@ -1245,7 +1262,7 @@ html {
   }
 
   .down-work {
-    top: 515px;
+    top: 530px;
   }
 
   .work-card2,
@@ -1275,13 +1292,13 @@ html {
   }
 
   .design-card2 {
-    top: 465px;
+    top: 470px;
     left: 0px;
   }
 
   .design-card3 {
     display: block;
-    top: 855px;
+    top: 865px;
     left: 0px;
   }
 
@@ -1319,7 +1336,7 @@ html {
 
   .service-box {
     position: absolute;
-    top: 3080px;
+    top: 3120px;
   }
 
   .service-box-img {
@@ -1335,7 +1352,7 @@ html {
 
   .service-box-txt {
     width: 320px;
-    height: 260px;
+    height: 265px;
     left: 0px;
     top: 225px;
     border-bottom: 3px solid var(--white);
@@ -1355,7 +1372,7 @@ html {
 
   .work-btn a,
   .service-box-btn a {
-    top: 957px;
+    top: 1020px;
     left: 70px;
     height: 20px;
     width: 155px;
@@ -1370,7 +1387,7 @@ html {
 
   /* ------------------------- */
   .contact-us-box {
-    top: 3690px;
+    top: 3740px;
     width: 320px;
     height: 567px;
   }
