@@ -285,6 +285,9 @@ html {
   display: none;
 }
 
+.suhail-mobile-pera {
+  display: none;
+}
 
 
 
@@ -488,23 +491,27 @@ html {
   color: #fff;
 }
 
-.homestudent a:hover{
+.homestudent a:hover {
   color: #ff8a00;
 }
 
-.hometeacher a:hover{
+.hometeacher a:hover {
   color: #6166AE;
 }
-.homegexa a:hover{
+
+.homegexa a:hover {
   color: #36A629;
 }
-.homemyjam a:hover{
+
+.homemyjam a:hover {
   color: #FF00F9;
 }
-.homeadaelo a:hover{
+
+.homeadaelo a:hover {
   color: #FFFFFF;
 }
-.homecare a:hover{
+
+.homecare a:hover {
   color: #54B4B5;
 }
 
@@ -557,24 +564,35 @@ html {
   height: 240px;
 }
 
-.research {
+.research,
+.design1,
+.validate {
   font-size: 25px;
   font-weight: 600;
-  position: absolute;
-  top: 270px;
   padding: 15px 0;
   width: 100%;
   border-top: 4px solid white;
+  border-bottom: 1px solid var(--white);
+  margin: 0px 0px 10px;
+  color: #DFB9C1;
+}
+
+.design1 {
+  color: #57CC99;
+}
+
+.validate {
+  color: #D1BFAD;
 }
 
 .txt-p-container {
   position: relative;
-  height: 245px;
-  top: 335px;
+  height: 290px;
+  top: 250px;
   padding: 15px 0;
   font-size: 14px;
   line-height: 22px;
-  border-top: 1px solid var(--white);
+  /* border-top: 1px solid var(--white); */
   border-bottom: 4px solid var(--white);
   color: #A8A8A8;
 }
@@ -873,9 +891,10 @@ html {
     height: 215px;
   }
 
-  .name-box-txt2{
+  .name-box-txt2 {
     display: none;
   }
+
   .name-box-grp-txt {
     display: none;
   }
@@ -1110,7 +1129,7 @@ html {
 
 }
 
-  /* ------------------Footer Box-------------- */
+/* ------------------Footer Box-------------- */
 .footer-box-left-txt {
   font-size: 14px;
   color: #A8A8A8;
@@ -1124,27 +1143,69 @@ html {
   /* For mobile phones: */
 
   .home-page {
-    height: 4500px;
+    height: 4650px;
   }
 
   .suhail-mobile-name {
     display: block;
     position: relative;
-    top:-50px ;
+    top: 345px;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0px;
+    color: #57CC99;
   }
 
-  .name-box .avatar {
+  .suhail-mobile-pera {
     display: block;
-    top: 10px;
+    position: relative;
+    top: 400px;
+    padding-top: 10px;
+    border-top: 1px solid #FFFFFF;
   }
 
+  .suhail-mobile-pera-social {
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  .suhail-mobile-pera p {
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 16px;
+    color: #BBBBBB;
+  }
+
+  .suhail-mobile-pera-contact {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .phone {
+    color: #57CC99;
+  }
+
+  .separator {
+    color: white;
+    margin: 0 10px;
+  }
+
+  .email {
+    color: #DFB9C1;
+  }
 
   .nav-bar {
     display: none;
   }
 
   .content {
-    width: 320px;
+    width: 390px;
     padding-top: 10px;
   }
 
@@ -1158,10 +1219,10 @@ html {
   }
 
   .name-box .avatar .image {
-    height: 300px;
-    width: 300px;
+    height: 330px;
+    width: 350px;
     position: relative;
-    top: 30px;
+    top: -10px;
   }
 
   .name-box-grp-img1,
@@ -1182,27 +1243,25 @@ html {
   }
 
   .name-box-h1 {
-    top: 380px;
+    top: 405px;
     font-size: var(--font-size-lg);
     left: 25%;
   }
 
-  .name-box-btn {
-    display: none;
-  }
-
   .name-box-btn a {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 600;
-    padding: 8px;
-    width: 115px;
+    padding: 10px;
+    width: 130px;
     height: 15px;
+    top: 615px;
+    left: 30%;
   }
 
   /* ---------------------------- */
   .detail-box {
     top: 505px;
-    width: 320px;
+    width: 390px;
     border-top: 2px solid var(--white);
   }
 
@@ -1231,7 +1290,7 @@ html {
   .detail-box2-a,
   .detail-box2-b {
     left: 0px;
-    width: 320px;
+    width: 390px;
     padding-bottom: 10px;
     text-align: left;
   }
@@ -1244,25 +1303,25 @@ html {
   /* ------------------------------ */
 
   .work-box {
-    top: 610px;
+    top: 800px;
   }
 
   .box-head {
-    width: 320px;
-    height: 40px;
+    width: 390px;
+    height: 50px;
   }
 
   .box-head-txt {
-    font-size: 28px;
+    font-size: 38px;
   }
 
   .up-work {
-    top: 70px;
+    top: 80px;
     font-size: var(--font-size-2xs);
   }
 
   .down-work {
-    top: 530px;
+    top: 620px;
   }
 
   .work-card2,
@@ -1277,36 +1336,58 @@ html {
 
   .work-card1,
   .work-card4 {
-    width: 320px;
+    width: 390px;
   }
 
   .work-card-img {
-    height: 200px;
+    width: 390px;
+    height: 270px;
   }
 
+  .work-card-txt-p {
+    font-size: 18px;
+  }
+
+  .work-card-txt-head {
+    font-size: 24px;
+  }
+
+  .work-card-txt-process {
+    font-size: 12px;
+  }
+
+  .work-btn a {
+    top: 1210px;
+    left: 110px;
+    height: 20px;
+    width: 155px;
+    padding: 10px;
+    font-size: var(--font-size-lg);
+  }
 
   /* ---------------------------------- */
 
   .design-box {
-    top: 1730px;
-  }
-
-  .design-card2 {
-    top: 470px;
-    left: 0px;
-  }
-
-  .design-card3 {
-    display: block;
-    top: 865px;
-    left: 0px;
+    top: 2110px;
   }
 
   .design-card1,
   .design-card2,
   .design-card3 {
-    width: 320px;
+    width: 390px;
     font-size: var(--font-size-lg);
+    top: 10px;
+  }
+
+  .design-card2 {
+    top: 580px;
+    left: 0px;
+  }
+
+  .design-card3 {
+    display: block;
+    top: 1070px;
+    left: 0px;
   }
 
   .design-card-box {
@@ -1315,8 +1396,8 @@ html {
   }
 
   .design-card-img {
-    width: 320px;
-    height: 200px;
+    width: 390px;
+    height: 250px;
   }
 
   .research {
@@ -1326,69 +1407,30 @@ html {
     border-top: 3px solid white;
   }
 
+  .research,
+  .design1,
+  .validate {
+    font-size: 24px;
+    padding: 15px 0;
+  }
+
   .txt-p-container {
     height: auto;
     top: 255px;
-    font-size: 14px;
-    line-height: 15px;
+    font-size: 16px;
+    line-height: 20px;
     border-bottom: 3px solid var(--white);
   }
 
+  /* ----------------------------------- */
   .service-box {
-    position: absolute;
-    top: 3120px;
-  }
-
-  .service-box-img {
-    height: 200px;
-    width: 320px;
-  }
-
-  .image-parent11 {
-    width: 320px;
-    top: 75px;
-    font-size: var(--font-size-lg);
-  }
-
-  .service-box-txt {
-    width: 320px;
-    height: 265px;
-    left: 0px;
-    top: 225px;
-    border-bottom: 3px solid var(--white);
-  }
-
-  .service-box-h1 {
-    padding: 10px 0;
-    border-top: 3px solid var(--white);
-  }
-
-  .service-box-p {
-    font-size: 12px;
-    line-height: 15px;
-    padding: 15px 0;
-    text-align: justify;
-  }
-
-  .work-btn a,
-  .service-box-btn a {
-    top: 1020px;
-    left: 70px;
-    height: 20px;
-    width: 155px;
-    padding: 10px;
-    font-size: var(--font-size-lg);
-  }
-
-  .service-box-btn a {
-    top: 0px;
-    left: 0px;
+    display: none;
   }
 
   /* ------------------------- */
   .contact-us-box {
-    top: 3740px;
-    width: 320px;
+    top: 3820px;
+    width: 390px;
     height: 567px;
   }
 
@@ -1402,7 +1444,7 @@ html {
 
   .contact-us-left input,
   .contact-us-left textarea {
-    width: 320px;
+    width: 390px;
   }
 
   .contact-us-right {
