@@ -1,6 +1,7 @@
 * {
   user-select: none;
 }
+
 .journey-page {
   width: 100%;
   position: relative;
@@ -171,8 +172,8 @@
 
 .card-box-p {
   font-size: 14px;
-    font-weight: 400;
-    line-height: 19px;
+  font-weight: 400;
+  line-height: 19px;
   text-align: justify;
   color: #A8A8A8;
 }
@@ -344,8 +345,8 @@
 
   .jour-card-box1,
   .jour-card-box2 {
-    width: 337px;
-    height: 380px;
+    width: 340px;
+    height: 350px;
   }
 
   .jour-card-box2 {
@@ -355,7 +356,7 @@
   .card-box-parent1,
   .card-box-parent2 {
     position: absolute;
-    left: 360px;
+    left: 365px;
     width: 340px;
   }
 
@@ -387,10 +388,10 @@
     margin: 2px;
   }
 
-
   .journey-frends {
     top: 3140px;
     width: 700px;
+    height: 680px;
   }
 
   .team-card-box {
@@ -405,6 +406,15 @@
   .cursor {
     display: none;
   }
+
+  .team-container {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    position: absolute;
+    top: 175px;
+    width: 700px;
+  }
 }
 
 
@@ -413,7 +423,7 @@
 
 
   .journey-page {
-    height: 6020px;
+    height: 6900px;
   }
 
   .header {
@@ -421,18 +431,18 @@
   }
 
   .content {
-    max-width: 320px;
+    max-width: 390px;
   }
 
   .journey-top-line {
-    width: 320px;
+    width: 390px;
     top: 80px;
     font-size: 17px;
   }
 
   .box-head {
     top: 180px;
-    width: 320px;
+    width: 390px;
     height: 45px;
     font-size: var(--font-size-5xl);
   }
@@ -450,7 +460,7 @@
   .jour-card6,
   .jour-card7 {
 
-    width: 320px;
+    width: 390px;
   }
 
   .jour-card1 {
@@ -458,41 +468,52 @@
   }
 
   .jour-card2 {
-    top: 690px;
+    top: 770px;
   }
 
   .jour-card3 {
-    top: 1305px;
+    top: 1500px;
   }
 
   .jour-card4 {
-    top: 1890px;
+    top: 2270px;
   }
 
   .jour-card5 {
-    top: 2470px;
+    top: 3010px;
   }
 
   .jour-card6 {
-    top: 3165px;
+    top: 3770px;
   }
 
   .jour-card7 {
-    top: 3985px;
+    top: 4680px;
+  }
+
+  .card-box-h1 {
+    font-size: 17px;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+  }
+
+  .card-box-p {
+    font-size: 14px;
+    line-height: 17px;
   }
 
   .card-box-parent1,
   .card-box-parent2 {
     position: absolute;
-    top: 370px !important;
+    top: 440px !important;
     left: 0px;
-    width: 320px;
+    width: 390px;
   }
 
   .jour-card-box1,
   .jour-card-box2 {
-    width: 320px;
-    height: 345px;
+    width: 390px;
+    height: 410px;
   }
 
   .jour-card-box2 {
@@ -500,22 +521,24 @@
   }
 
   .journey-frends {
-    top: 4680px;
-    width: 320px;
-    height: 1030px;
+    top: 5550px;
+    width: 390px;
+    height: 980px;
   }
 
   .frnd-top {
-    font-size: 15px;
+    font-size: 16px;
   }
 
   .journey-frends-p {
     margin: 0px;
-    font-size: 12px;
+    font-size: 14px;
+    top: 60px;
   }
 
   .team-container {
     gap: 5px;
+    top: 130px;
   }
 
   .team-card-box {

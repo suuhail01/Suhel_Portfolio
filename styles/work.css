@@ -172,7 +172,7 @@
 
 
 .p-h {
-  font-size: 11px;
+  font-size: 12px;
 }
 
 /* ---------------------------- */
@@ -308,8 +308,8 @@
 
   .design-card1, .design-card2, .design-card3, .design-card4, .design-card5, .design-card6, .design-card7, .design-card8 {
     position: relative;
-    height: 590px;
-    width: 320px;
+    height: 355px;
+    width: 390px;
     font-size: var(--font-size-lgi-2);
     margin-bottom: 35px;
 }
@@ -326,7 +326,7 @@
   /* For mobile phones: */
 
   .design-page {
-    height: 5555px;
+    height: 5900px;
   }
 
   .header {
@@ -334,16 +334,17 @@
   }
 
   .content {
-    max-width: 320px;
+    max-width: 390px;
     padding-top: 25px;
   }
 
   .box-head {
     top: 100px;
-    width: 320px;
-    height: 35px;
-    font-size: var(--font-size-5xl);
+    width: 390px;
+    height: 40px;
+    font-size: 28px;
   }
+
 
   .tab-container {
     padding: 5px;
@@ -364,8 +365,8 @@
   .design-card-img1,
   .design-card-img2 {
     position: absolute;
-    width: 320px;
-    height: 220px;
+    width: 390px;
+    height: 270px;
   }
 
   .design-card-txt1 {
@@ -375,31 +376,20 @@
 
   .design-card1, .design-card2, .design-card3, .design-card4, .design-card5, .design-card6, .design-card7, .design-card8 {
     position: relative;
-    height: 590px;
-    width: 320px;
+    height: 630px;
+    width: 390px;
     font-size: var(--font-size-lgi-2);
     margin-bottom: 35px;
 }
 
-
-
-
-
-  /* .design-card2 {
-    top: 610px;
-  }
-
-  .design-card1,
-  .design-card2 {
-    height: 580px;
-    width: 320px;
-    font-size: var(--font-size-lgi-2);
-  } */
+.design-card-txt-p, .p-h {
+  font-size: 16px;
+}
 
   .design-card-txt1,
   .design-card-txt2 {
     position: absolute;
-    width: 315px;
+    width: 390px;
     height: 335px;
   }
 
@@ -408,11 +398,7 @@
   .cardtxt3,
   .cardtxt4 {
     position: relative;
-    top: 250px;
-  }
-
-  .cardtxt3 {
-    top: 250px;
+    top: 300px;
   }
 
   .design-card-img2 {
@@ -428,7 +414,7 @@
     position: relative;
     top: 5120px;
     left: 0px;
-    width: 320px;
+    width: 390px;
     gap: 8px;
     font-size: 25px;
   }

@@ -453,7 +453,7 @@ html {
   display: none;
 }
 
-.footer-toptext img{
+.footer-toptext img {
   width: 390px;
 }
 
@@ -728,28 +728,33 @@ html {
 
 .process-fintech,
 .razorpay {
-  position: absolute;
+  position: relative;
   left: 0;
   width: 100%;
-  text-align: center;
+
 }
 
 .process-fintech {
-  font-size: 12px;
+  font-size: 10px;
   top: 225px;
-  padding: 12px 0;
+  padding: 10px 0;
   letter-spacing: 1px;
   text-transform: uppercase;
   border-top: 3px solid;
   border-bottom: 1px solid;
-  height: 30px;
+  text-align: center;
 }
 
 .razorpay {
   top: 285px;
   padding: 10px 0;
-  font-size: var(--font-size-lg);
   border-bottom: 3px solid;
+  margin: 0px;
+  text-align: left;
+}
+
+.razorpay a {
+  font-size: var(--font-size-lg);
   text-decoration: none;
   color: #fff;
 }
@@ -843,7 +848,7 @@ html {
   #scrollToTopBtn {
     position: absolute;
     bottom: 85px;
-    right: 40px;
+    right: 40px !important;
     z-index: 1000;
   }
 
@@ -855,16 +860,28 @@ html {
     display: none;
   }
 
-  .header-arrow {
+  /* .header-arrow {
     left: 40px;
     position: absolute;
     top: 25px;
     height: 45px;
     width: 53px;
-  }
+  } */
 
   .header-sh-img {
-    left: 100px;
+    left: 70px;
+  }
+
+  .header-arrow {
+    left: 20px;
+  }
+
+  .header-sh-img,
+  .header-arrow {
+    position: absolute;
+    top: 30px;
+    height: 30px;
+    width: 50px;
   }
 
   .nav-bar {
@@ -917,12 +934,6 @@ html {
 
   #scrollToTopBtn {
     display: none !important;
-    /* position: absolute;
-    bottom: 90px;
-    right: 25px !important;
-    z-index: 1000;
-    width: 30px;
-    height: 30px; */
   }
 
   .cursor {
@@ -940,5 +951,70 @@ html {
   .mobile-footer {
     display: flex;
   }
+
+  .progress-line {
+    margin-bottom: 20px !important;
+  }
+
+  .scroll-container {
+    position: relative;
+    top: 100px;
+    width: 325px;
+    left: 40px;
+  }
+
+  .other-proj-head {
+    top: 0px;
+    font-size: 30px;
+    width: 390px;
+    height: 50px;
+  }
+
+  .scroll-container {
+    position: relative;
+    top: 100px;
+    width: 305px;
+  }
+
+  .image-container {
+    position: relative;
+    width: 305px;
+    height: 335px;
+    flex-shrink: 0;
+  }
+
+  .image-icon {
+    width: 100%;
+    height: auto;
+  }
+
+  .process-fintech {
+    top: 5px;
+  }
+
+  .razorpay {
+    top: 5px;
+  }
+
+  /* =========================================== */
+
+  .owl-nav button {
+    width: 35px;
+    height: 35px;
+  }
+
+
+  .owl-nav .owl-prev {
+    left: -30px;
+  }
+
+  .owl-nav .owl-next {
+    right: -30px;
+  }
+
+  .owl-dots {
+    display: none !important;
+  }
+
 
 }
