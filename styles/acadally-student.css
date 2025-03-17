@@ -69,7 +69,11 @@
 
 .adadally-head-img {
     top: 135px;
-    height: 668;
+    height: 670px;
+}
+
+.acadally-box-1 img{
+    width: 350px;
 }
 
 .acadally-box-1,
@@ -180,6 +184,7 @@
 .acadally-box-21 {
     top: 37570px;
 }
+
 .acadally-box-22 {
     top: 39550px;
 }
@@ -243,6 +248,7 @@
     font-weight: 400;
     line-height: 36px;
     color: #BBBBBB;
+    margin: 0px;
 }
 
 .w6 p {
@@ -256,6 +262,10 @@
 .A18 {
     position: relative;
     top: -70px;
+}
+.A17,
+.A4{
+    width: 350px;
 }
 
 .A4c,
@@ -275,6 +285,13 @@
 
 .A4f {
     left: 36%;
+}
+.tick{
+    width: 90px;
+    height: 80px;
+}
+.bluetick{
+    height: 40px;
 }
 
 .student-back {
@@ -324,8 +341,8 @@
     margin: 0;
     color: #BBBBBB;
 }
-
-.arrow-rgt {
+.arrow-rgt1,
+.arrow-rgt2 {
     width: 100px;
     height: auto;
     align-self: center;
@@ -369,6 +386,14 @@
 }
 
 
+.A4a,
+.A4b,
+.A4c,
+.A4d,
+.A4e,
+.A4f{
+    width: 550px;
+}
 
 
 /* ================= OTHER PROJECT BOX ===================== */
@@ -476,7 +501,6 @@ body {
 .slider {
     display: flex;
     gap: 10px;
-    /* Space between images */
     animation: slide 30s linear infinite;
     width: calc(200px * 28 + 10px * 27);
 }
@@ -489,13 +513,10 @@ body {
     transition: transform 0.3s ease;
 }
 
-/* Hover effect: Enlarge image on hover */
 .slider img:hover {
     transform: scale(1.05);
-    /* Slightly scale up the image on hover */
 }
 
-/* Keyframes for sliding animation */
 @keyframes slide {
     from {
         transform: translateX(0);
@@ -504,24 +525,9 @@ body {
 
     to {
         transform: translateX(-100%);
-        /* Move the entire slider to the left */
     }
 }
 
-/* Mobile responsiveness: Adjust image size for smaller screens */
-@media (max-width: 768px) {
-    .slider img {
-        width: 150px;
-        /* Reduce image width on medium-sized screens */
-    }
-}
-
-@media (max-width: 480px) {
-    .slider img {
-        width: 100px;
-        /* Further reduce image width on small screens */
-    }
-}
 
 
 
@@ -579,6 +585,9 @@ body {
 .mt40 {
     margin-top: 40px;
 }
+.ml60{
+    margin-left: 60px;
+}
 
 .f16 {
     font-size: 16px;
@@ -592,9 +601,12 @@ li {
     color: #BBBBBB;
     margin: 10px 0;
 }
+.t_75{
+    top: -75px;
+}
 
+@media only screen and (max-width:820px) {
 
-@media (max-width: 768px) {
     .dfsb {
         flex-direction: column;
         align-items: center;
@@ -609,8 +621,295 @@ li {
         margin-bottom: 20px;
     }
 
-    .dfsb img {
-        margin: 10px 0;
-        /* Add spacing around arrows */
+
+
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:500px) {
+
+    
+    .acadally-student-page {
+        height: 26150px;
     }
+
+    .header,
+    .tick,
+    .bluetick{
+        display: none;
+    }
+    .ml60{
+        margin-left: 0px;
+    }
+
+    .content {
+        max-width: 390px;
+    }
+
+    .adadally-cont-head {
+        top: 90px;
+    }
+
+    .adadally-head {
+        font-size: 35px;
+        letter-spacing: 0px;
+        font-weight: 800;
+        padding-bottom: 15px;
+    }
+
+    .adadally-head,
+    .adadally-head-txt,
+    .adadally-head-img,
+    .A7 {
+        position: absolute;
+        width: 390px;
+    }
+
+    .adadally-head-img {
+        top: 80px;
+        height: 250px;
+    }
+    .ab1-h {
+        font-size: 28px;
+    }
+    .acadally-box-1 img {
+        width: 260px;
+    }
+
+
+    .acadally-box-1,
+    .acadally-box-2,
+    .acadally-box-3,
+    .acadally-box-4,
+    .acadally-box-5,
+    .acadally-box-6,
+    .acadally-box-7,
+    .acadally-box-8,
+    .acadally-box-9,
+    .acadally-box-10,
+    .acadally-box-11,
+    .acadally-box-12,
+    .acadally-box-13,
+    .acadally-box-14,
+    .acadally-box-15,
+    .acadally-box-16,
+    .acadally-box-17,
+    .acadally-box-18,
+    .acadally-box-19,
+    .acadally-box-20,
+    .acadally-box-21,
+    .acadally-box-22,
+    .acadally-box-23 {
+        width: 390px;
+    }
+
+    .acadally-box-1 {
+        top: 460px;
+    }
+    .acadally-box-2 {
+        top: 1050px;
+    }
+    .acadally-box-3 {
+        top: 1700px;
+    }
+    .acadally-box-4 {
+        top: 2500px;
+    }
+    .acadally-box-5 {
+        top: 3530px;
+    }
+    .acadally-box-6 {
+        top: 5430px;
+    }
+
+    .acadally-box-7 {
+        top: 6890px;
+    }
+    .acadally-box-8 {
+        top: 7230px;
+    }
+    .acadally-box-9 {
+        top: 8320px;
+    }
+
+    .acadally-box-10 {
+        top: 8900px;
+    }
+
+    .acadally-box-11{
+        top: 9280px;
+    }
+
+    .acadally-box-12 {
+        top: 10400px;
+    }
+
+    .acadally-box-13 {
+        top: 10880px;
+    }
+    .acadally-box-14 {
+        top: 11900px;
+    }
+    .acadally-box-15 {
+        top: 12380px;
+    }
+    .acadally-box-16 {
+        top: 15710px;
+    }
+    .acadally-box-17 {
+        top: 16140px;
+    }
+    .acadally-box-18 {
+        top: 21390px;
+    }
+    .acadally-box-19 {
+        top: 22800px;
+    }
+
+    .acadally-box-20 {
+        top: 23370px;
+    }
+    .acadally-box-21 {
+        top: 24300px;
+    }
+    .acadally-box-22 {
+        top: 25110px;
+    }
+
+
+
+
+    .other-proj-box {
+        position: absolute;
+        top: 25400px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+    .slider img {
+        width: 205px;
+    }
+    .box6a, .box6b, .box6c {
+        height: 330px;
+        gap: 10px;
+    }
+
+
+    .arrow-rgt1 {
+    top: -20px;
+}
+
+.arrow-rgt2 {
+    top: -10px;
+}
+.A9,
+.A10,
+.A11,
+.A11a,
+.A11b,
+.A12,
+.A13,
+.A14,
+.A15a,
+.A15b,
+.A15c,
+.A15d,
+.A15e,
+.A15f,
+.A15g,
+.A15h,
+.A15i,
+.A15j,
+.A16,
+.A17a,
+.A17b,
+.A17c,
+.A17d,
+.A17e,
+.A17f,
+.A17g,
+.A20a,
+.A21,
+.A22 {
+    width: 390px;
+}
+
+    .A4{
+        width: 350px;
+    }
+    
+    .A4a, .A4b{
+        width: 320px;
+    }
+    .A4c, .A4d, .A4e, .A4f {
+        width: 250px;
+    }
+    .A2{
+        top: -40px;
+    }
+    .A18 {
+        top: 20px;
+    }
+
+    .ab2-h, .ab3-ha {
+        font-size: 20px;
+    }
+
+    .ab3-h {
+        font-size: 26px;
+        padding-left: 15px;
+    }
+    .w7 p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .mt40 {
+        margin-top: 30px;
+    }
+    .mt30 {
+        margin-top: 20px;
+    }
+    .t_75{
+        top: 0px;
+    }
+    
+
+
 }

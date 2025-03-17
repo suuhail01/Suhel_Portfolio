@@ -431,6 +431,7 @@ html {
   width: 100%;
   background-color: #222;
   padding: 0;
+  z-index: 1000;
 }
 
 .mobile-footer a {
@@ -736,17 +737,19 @@ html {
 
 .process-fintech {
   font-size: 10px;
-  top: 225px;
+  top: 15px;
   padding: 10px 0;
   letter-spacing: 1px;
   text-transform: uppercase;
   border-top: 3px solid;
   border-bottom: 1px solid;
   text-align: center;
+  height: 30px;
 }
 
 .razorpay {
-  top: 285px;
+  top: 15px;
+  height: 30px;
   padding: 10px 0;
   border-bottom: 3px solid;
   margin: 0px;
