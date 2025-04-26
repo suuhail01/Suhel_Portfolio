@@ -110,7 +110,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
     // // Disable Right Click
-    // document.addEventListener("contextmenu", (event) => event.preventDefault());
+    document.addEventListener("contextmenu", (event) => event.preventDefault());
 
     // // Disable Developer Tools (F12, Ctrl+Shift+I, Ctrl+Shift+J, Ctrl+Shift+C)
     // document.addEventListener("keydown", (event) => {
@@ -582,3 +582,51 @@ function toggleTLplay() {
         tl.paused(!tl.paused());
     });
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Optional: Duplicate the slider images for a seamless loop
+window.onload = () => {
+    let slider = document.getElementById('slider');
+    let images = slider.getElementsByTagName('img');
+    let imageArray = Array.from(images);
+
+    imageArray.forEach((image) => {
+        let clone = image.cloneNode(true);
+        slider.appendChild(clone);
+    });
+};

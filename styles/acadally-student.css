@@ -6,7 +6,7 @@
     width: 100%;
     position: relative;
     background-color: var(--white);
-    height: 41000px;
+    height: 49400px;
     overflow: hidden;
     text-align: left;
     font-size: var(--font-size-mini);
@@ -69,7 +69,7 @@
 
 .adadally-head-img {
     top: 135px;
-    height: 670px;
+    height: 600px;
 }
 
 .acadally-box-1 img{
@@ -98,7 +98,11 @@
 .acadally-box-20,
 .acadally-box-21,
 .acadally-box-22,
-.acadally-box-23 {
+.acadally-box-23,
+.acadally-box-24,
+.acadally-box-25,
+.acadally-box-26,
+.acadally-box-27 {
     position: absolute;
     top: 920px;
     width: 1000px;
@@ -170,23 +174,35 @@
 }
 
 .acadally-box-18 {
-    top: 35080px;
+    top: 35900px;
 }
 
 .acadally-box-19 {
-    top: 36070px;
+    top: 36930px;
 }
 
 .acadally-box-20 {
-    top: 36700px;
+    top: 38820px;
 }
 
 .acadally-box-21 {
-    top: 37570px;
+    top: 42780px;
 }
 
 .acadally-box-22 {
-    top: 39550px;
+    top: 43750px;
+}
+.acadally-box-23 {
+    top: 44610px;
+}
+.acadally-box-24 {
+    top: 45200px;
+}
+.acadally-box-25 {
+    top: 46050px;
+}
+.acadally-box-26 {
+    top: 48000px;
 }
 
 .acadally-box-18 ul {
@@ -371,6 +387,7 @@
 .A15i,
 .A15j,
 .A16,
+.A17aa,
 .A17a,
 .A17b,
 .A17c,
@@ -400,7 +417,7 @@
 
 .other-proj-box {
     position: absolute;
-    top: 40250px;
+    top: 48700px;
 }
 
 
@@ -857,6 +874,7 @@ li {
 .A15i,
 .A15j,
 .A16,
+.A17aa,
 .A17a,
 .A17b,
 .A17c,
