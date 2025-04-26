@@ -230,15 +230,15 @@ html {
 }
 
 .nav-box {
-  width: 160px;
+  width: 120px;
   position: relative;
-  height: 20px;
+  height: 17px;
   padding: 7px;
   border: 1px solid var(--white);
   text-decoration: none;
   font-weight: 600;
   color: var(--white);
-  font-size: var(--font-size-base);
+  font-size: 14px;
 }
 
 .nav-box:hover {
