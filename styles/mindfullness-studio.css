@@ -24,32 +24,17 @@
 
 
 /* ===================================================== */
-/* ================= adadally HEAD ===================== */
+/* ================= mindfullness HEAD ===================== */
 
-.adadally-cont-head {
+.mindfullness-cont-head {
     position: absolute;
     top: 100px;
 }
 
-
-.adadally-head,
-.adadally-head-txt,
-.adadally-head-img,
-.A7 {
+.mindfullness-head-img{
     position: absolute;
     width: 1000px;
-}
-
-.adadally-head {
-    font-size: 75px;
-    letter-spacing: -4px;
-    font-weight: 900;
-    padding-bottom: 15px;
-}
-
-.adadally-head-img {
     top: 50px;
-    /* height: 600px; */
 }
 
 
@@ -240,26 +225,26 @@
         max-width: 390px;
     }
 
-    .adadally-cont-head {
+    .mindfullness-cont-head {
         top: 90px;
     }
 
-    .adadally-head {
+    .mindfullness-head {
         font-size: 35px;
         letter-spacing: 0px;
         font-weight: 800;
         padding-bottom: 15px;
     }
 
-    .adadally-head,
-    .adadally-head-txt,
-    .adadally-head-img,
+    .mindfullness-head,
+    .mindfullness-head-txt,
+    .mindfullness-head-img,
     .A7 {
         position: absolute;
         width: 390px;
     }
 
-    .adadally-head-img {
+    .mindfullness-head-img {
         top: 80px;
         height: 250px;
     }

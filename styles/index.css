@@ -126,7 +126,7 @@ html {
 .nav-bar {
   position: relative;
   top: 15px;
-  left: 440px;
+  left: 560px;
   display: flex;
   text-align: center;
   font-size: var(--font-size-sm);
@@ -511,8 +511,8 @@ html {
   color: #FFFFFF;
 }
 
-.homecare a:hover {
-  color: #54B4B5;
+.homemindfull a:hover {
+  color: #E52E70;
 }
 
 
