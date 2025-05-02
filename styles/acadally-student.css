@@ -500,6 +500,89 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+.image-carousel {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    gap: 10px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .image-carousel img {
+    width: 200px;
+    height: 430px;
+    border-radius: 8px;
+
+    /* min-width: 100%; */
+    flex-shrink: 0;
+    transition: transform 0.3s ease-in-out;
+    animation: slide 10s infinite linear;
+  }
+  
+  .image-carousel:hover img {
+    animation-play-state: paused;
+    transform: scale(1.2);
+  }
+  
+  .image-carousel img:hover {
+    transform: scale(1.4);
+  }
+  
+  @keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    14% {
+      transform: translateX(-100%);
+    }
+    28% {
+      transform: translateX(-200%);
+    }
+    42% {
+      transform: translateX(-300%);
+    }
+    57% {
+      transform: translateX(-400%);
+    }
+    71% {
+      transform: translateX(-500%);
+    }
+    85% {
+      transform: translateX(-600%);
+    }
+    100% {
+      transform: translateX(-700%);
+    }
+  }
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ============================================================ */
 /* =========================================================== */
 
