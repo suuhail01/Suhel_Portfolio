@@ -47,7 +47,8 @@
 
 .adadally-cont-head {
     position: absolute;
-    top: 140px;
+    /* top: 140px; */
+    top: 100px;
     /* width: 1000px; */
 }
 
@@ -68,8 +69,8 @@
 }
 
 .adadally-head-img {
-    top: 135px;
-    height: 600px;
+    top: 50px;
+    /* height: 600px; */
 }
 
 .acadally-box-1 img{
@@ -312,6 +313,7 @@
 
 .student-back {
     position: relative;
+    top: 60px;
 }
 
 .background-image {
@@ -417,7 +419,7 @@
 
 .other-proj-box {
     position: absolute;
-    top: 48700px;
+    top: 28700px;
 }
 
 
@@ -456,57 +458,6 @@
         inset -0.6vw -0.6vw 3vw 0.15vw rgba(0, 0, 0, 0.9),
         0.6vw 0.6vw 1.8vw -0.1vw rgba(0, 0, 0, 0.6);
 }
-
-/* Prep */
-
-body {
-    height: 100vh;
-    width: 100vw;
-    margin: 0;
-}
-
-#main {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    color: rgba(222, 233, 255, 0.8);
-    background-color: rgb(15, 9, 33);
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Tahoma", sans-serif;
-}
-
-.fit {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin: auto;
-}
-
-#image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    font-family: 'object-fit: cover;';
-    opacity: 0.4;
-    filter: blur(4px);
-}
-
-#credit {
-    position: absolute;
-    bottom: -1em;
-    right: -1em;
-    padding: 0.5em 1.7em 1.5em 0.7em;
-    border-radius: 0.5em;
-    background-color: rgba(15, 9, 33, 0.8);
-    text-align: right;
-}
-
-#credit>a {
-    color: rgba(222, 233, 255, 0.8) !important;
-}
-
 
 /* ================================ */
 .slider-container {
