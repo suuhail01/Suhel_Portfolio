@@ -581,7 +581,7 @@
         <div class="ab3-h" data-aos="fade-up" data-aos-delay="200" data-aos-duration="600">
           APPSTORE PREVIEW IMAGES
         </div>
-        <div class="mt30" data-aos="fade-up" data-aos-delay="200" data-aos-duration="600">
+        <!-- <div class="mt30" data-aos="fade-up" data-aos-delay="200" data-aos-duration="600">
           <div class="tch-slider-container">
             <div class="tch-slider" id="slider">
               <img src="../public/teacher/B21a.png" alt="Image 1" />
@@ -593,7 +593,25 @@
               <img src="../public/teacher/B21g.png" alt="Image 7" />
             </div>
           </div>
-        </div>
+        </div> -->
+
+
+        <div class="image-carousel">
+                    <button class="carousel-btn left" aria-label="Previous">&#8592;</button>
+                    <div class="carousel-viewport">
+                        <div class="carousel-track">
+                            <img src="../public/teacher/B21a.png" alt="Image 1" />
+              <img src="../public/teacher/B21b.png" alt="Image 2" />
+              <img src="../public/teacher/B21c.png" alt="Image 3" />
+              <img src="../public/teacher/B21d.png" alt="Image 4" />
+              <img src="../public/teacher/B21e.png" alt="Image 5" />
+              <img src="../public/teacher/B21f.png" alt="Image 6" />
+              <img src="../public/teacher/B21g.png" alt="Image 7" />
+                        </div>
+                    </div>
+                    <button class="carousel-btn right" aria-label="Next">&#8594;</button>
+                </div>
+
       </div>
 
       <div class="acadally-box-22">
@@ -901,6 +919,52 @@
       });
     });
   </script>
+
+
+
+
+
+
+
+
+
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const track = document.querySelector('.carousel-track');
+    const images = track.querySelectorAll('img');
+    const btnLeft = document.querySelector('.carousel-btn.left');
+    const btnRight = document.querySelector('.carousel-btn.right');
+    const visibleCount = 3;
+    let currentIndex = 0;
+
+    function updateCarousel() {
+        const imgWidth = images[0].offsetWidth + 10; // image width + margin
+        track.style.transform = `translateX(-${currentIndex * imgWidth}px)`;
+        btnLeft.disabled = currentIndex === 0;
+        btnRight.disabled = currentIndex >= images.length - visibleCount;
+    }
+
+    btnLeft.addEventListener('click', function () {
+        if (currentIndex > 0) {
+            currentIndex--;
+            updateCarousel();
+        }
+    });
+
+    btnRight.addEventListener('click', function () {
+        if (currentIndex < images.length - visibleCount) {
+            currentIndex++;
+            updateCarousel();
+        }
+    });
+    updateCarousel();
+});
+</script>
+
+
+
 </body>
 
 </html>

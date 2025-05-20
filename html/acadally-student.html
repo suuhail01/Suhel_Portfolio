@@ -762,7 +762,29 @@
 
                 </div>
 
+                <!-- Fullscreen Image View -->
+                <!-- <div id="fullscreen-view" style="display:none;" onclick="closeFullscreen()">
+                    <img id="fullscreen-img" src="" alt="Fullscreen Image">
+                </div> -->
+                  
+
+
+
+
+                <div id="fullscreen-view" style="display:none;" onclick="closeFullscreen(event)">
+    <button id="fullscreen-prev" class="fullscreen-nav" aria-label="Previous Image" onclick="prevFullscreenImg(event)">
+        &#8592;
+    </button>
+    <img id="fullscreen-img" src="" alt="Fullscreen Image">
+    <button id="fullscreen-next" class="fullscreen-nav" aria-label="Next Image" onclick="nextFullscreenImg(event)">
+        &#8594;
+    </button>
+</div>
+
+
             </div>
+
+
 
 
             <div class="acadally-box-22">
@@ -775,9 +797,10 @@
             <div class="acadally-box-23">
                 <div class="ab3-h" data-aos="fade-up" data-aos-delay="200" data-aos-duration="600">APPSTORE PREVIEW
                     IMAGES</div>
-                <div class="mt30">
-                    <!-- <div class="slider-container">
-                        <div class="slider" id="slider">
+                <div class="image-carousel">
+                    <button class="carousel-btn left" aria-label="Previous">&#8592;</button>
+                    <div class="carousel-viewport">
+                        <div class="carousel-track">
                             <img src="../public/student/A23a.png" alt="Image 1">
                             <img src="../public/student/A23b.png" alt="Image 2">
                             <img src="../public/student/A23c.png" alt="Image 3">
@@ -786,19 +809,11 @@
                             <img src="../public/student/A23f.png" alt="Image 6">
                             <img src="../public/student/A23g.png" alt="Image 7">
                         </div>
-                    </div> -->
-
-                    <div class="image-carousel">
-                        <img src="../public/student/A23a.png" alt="Image 1">
-                        <img src="../public/student/A23b.png" alt="Image 2">
-                        <img src="../public/student/A23c.png" alt="Image 3">
-                        <img src="../public/student/A23d.png" alt="Image 4">
-                        <img src="../public/student/A23e.png" alt="Image 5">
-                        <img src="../public/student/A23f.png" alt="Image 6">
-                        <img src="../public/student/A23g.png" alt="Image 7">
                     </div>
-                      
+                    <button class="carousel-btn right" aria-label="Next">&#8594;</button>
                 </div>
+
+                <!-- </div> -->
             </div>
 
             <div class="acadally-box-24">
@@ -1134,6 +1149,166 @@
             });
         });
     </script>
+
+
+
+
+<!-- 
+<script>
+    let owlInstance;
+  
+    $(document).ready(function(){
+      owlInstance = $(".owl-carousel").owlCarousel({
+        items: 3,
+        margin: 10,
+        nav: true,
+        dots: true,
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        responsive:{
+          0:{ items:1 },
+          600:{ items:2 },
+          1000:{ items:3 }
+        }
+      });
+  
+      // Handle fullscreen image view
+      $(".owl-carousel img").on("click", function() {
+        const src = $(this).attr("src");
+        $("#fullscreen-img").attr("src", src);
+        $("#fullscreen-view").fadeIn();
+  
+        // Stop carousel autoplay
+        owlInstance.trigger('stop.owl.autoplay');
+      });
+    });
+  
+    function closeFullscreen() {
+      $("#fullscreen-view").fadeOut();
+  
+      // Resume carousel autoplay
+      owlInstance.trigger('play.owl.autoplay', [3000]);
+    }
+  </script>
+  
+   -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <script>
+let owlInstance;
+let fullscreenImages = [];
+let currentFullscreenIndex = 0;
+
+$(document).ready(function(){
+  owlInstance = $(".owl-carousel").owlCarousel({
+    items: 3,
+    margin: 10,
+    nav: true,
+    dots: true,
+    loop: true,
+    autoplay: true,
+    autoplayTimeout: 3000,
+    responsive:{
+      0:{ items:1 },
+      600:{ items:2 },
+      1000:{ items:3 }
+    }
+  });
+
+  // Collect all image sources in the carousel
+  fullscreenImages = $(".owl-carousel img").map(function(){ return $(this).attr("src"); }).get();
+
+  // Handle fullscreen image view
+  $(".owl-carousel img").on("click", function(e) {
+    e.stopPropagation();
+    const src = $(this).attr("src");
+    currentFullscreenIndex = fullscreenImages.indexOf(src);
+    $("#fullscreen-img").attr("src", src);
+    $("#fullscreen-view").fadeIn();
+    owlInstance.trigger('stop.owl.autoplay');
+  });
+});
+
+function closeFullscreen(event) {
+  // Only close if background is clicked, not buttons or image
+  if (event.target.id === "fullscreen-view") {
+    $("#fullscreen-view").fadeOut();
+    owlInstance.trigger('play.owl.autoplay', [3000]);
+  }
+}
+
+function showFullscreenImg(index) {
+  if (index < 0) index = fullscreenImages.length - 1;
+  if (index >= fullscreenImages.length) index = 0;
+  currentFullscreenIndex = index;
+  $("#fullscreen-img").attr("src", fullscreenImages[currentFullscreenIndex]);
+}
+
+function prevFullscreenImg(event) {
+  event.stopPropagation();
+  showFullscreenImg(currentFullscreenIndex - 1);
+}
+
+function nextFullscreenImg(event) {
+  event.stopPropagation();
+  showFullscreenImg(currentFullscreenIndex + 1);
+}
+</script>
+
+
+
+
+
+
+
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const track = document.querySelector('.carousel-track');
+    const images = track.querySelectorAll('img');
+    const btnLeft = document.querySelector('.carousel-btn.left');
+    const btnRight = document.querySelector('.carousel-btn.right');
+    const visibleCount = 3;
+    let currentIndex = 0;
+
+    function updateCarousel() {
+        const imgWidth = images[0].offsetWidth + 10; // image width + margin
+        track.style.transform = `translateX(-${currentIndex * imgWidth}px)`;
+        btnLeft.disabled = currentIndex === 0;
+        btnRight.disabled = currentIndex >= images.length - visibleCount;
+    }
+
+    btnLeft.addEventListener('click', function () {
+        if (currentIndex > 0) {
+            currentIndex--;
+            updateCarousel();
+        }
+    });
+
+    btnRight.addEventListener('click', function () {
+        if (currentIndex < images.length - visibleCount) {
+            currentIndex++;
+            updateCarousel();
+        }
+    });
+    updateCarousel();
+});
+</script>
+
 
 </body>
 

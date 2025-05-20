@@ -378,107 +378,50 @@
 
 
 
-/* ================================ */
-/* 
 
-.slider-container {
-    width: 100%;
+
+
+
+
+/* ================== CAROUSEL ======================= */
+.image-carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 900px;
+    margin: 0 auto;
+}
+.carousel-viewport {
     overflow: hidden;
-    position: relative;
+    width: 780px;
 }
-
-.slider {
+.carousel-track {
     display: flex;
-    gap: 10px;
-    animation: slide 30s linear infinite;
-    width: calc(200px * 28 + 10px * 27);
+    transition: transform 0.4s;
 }
-
-.slider img {
-    height: 430px;
-    width: 198.73px;
+.carousel-track img {
+    width: 250px;
+    height: auto;
+    margin: 0 5px;
     flex-shrink: 0;
-    border-radius: 8px;
-    transition: transform 0.3s ease;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
-
-.slider img:hover {
-    transform: scale(1.05);
+.carousel-btn {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    cursor: pointer;
+    z-index: 2;
+    margin: 0 10px;
+    transition: background 0.2s;
 }
-
-@keyframes slide {
-    from {
-        transform: translateX(0);
-    }
-
-    to {
-        transform: translateX(-100%);
-    }
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.tch-slider-container {
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-    display: flex;
-    gap: 10px;
+.carousel-btn:hover {
+    background: #f0f0f0;
 }
-
-.tch-slider {
-    display: flex;
-    gap: 10px;
-    animation: scrollLeft 10s linear infinite;
-}
-
-.tch-slider img {
-    height: 430px;
-    width: 198.73px;
-    flex-shrink: 0;
-    border-radius: 8px;
-    transition: transform 0.3s ease;
-}
-
-.slider img:hover {
-    transform: scale(1.05);
-}
-
-@keyframes scrollLeft {
-    0% {
-        transform: translateX(0);
-    }
-    100% {
-        transform: translateX(-100%);
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

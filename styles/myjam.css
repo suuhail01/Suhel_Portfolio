@@ -22,51 +22,19 @@
     margin: 0 auto;
 }
 
-
-/* ================== MEGICAL UNDERLINE EFFECT ======================= */
-.underline--magical {
-    display: inline-block;
-    background: linear-gradient(to right, #EE05F2, #EE05F2);
-    background-repeat: no-repeat;
-    background-size: 100% 0.2em;
-    background-position: 0 100%;
-    transition: background-size 0.3s ease-in-out;
-}
-
-.underline--magical:hover {
-    background-size: 100% 100%;
-}
-
-
 /* ===================================================== */
-/* ================= adadally HEAD ===================== */
+/* ================ THATS MY JAM HEAD ===================== */
 
-.adadally-cont-head {
+
+.myjam-cont-head {
     position: absolute;
-    top: 140px;
-    /* width: 1000px; */
+    top: 100px;
 }
 
-
-.adadally-head,
-.adadally-head-txt,
-.adadally-head-img,
-.A7 {
+.myjam-head-img{
     position: absolute;
     width: 1000px;
-}
-
-.adadally-head {
-    font-size: 75px;
-    letter-spacing: -4px;
-    font-weight: 900;
-    /* border-bottom: 4px solid var(--white); */
-    padding-bottom: 15px;
-}
-
-.adadally-head-img {
-    top: 150px;
-    height: 575px;
+    top: 80px;
 }
 
 .acadally-box-1,
